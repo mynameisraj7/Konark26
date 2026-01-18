@@ -8,7 +8,7 @@ import aman from "../assets/aman.jpeg";
 import yashika from "../assets/yashika.jpeg";
 import braingame from "../assets/braingames.jpeg";
 import auction from "../assets/auction.jpeg";
-import esummitlogo from "../assets/esummitlogo.png";
+import konarklogo from "../assets/konark.png";
 import { useEffect,useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -175,7 +175,7 @@ const toggleFlipRow2 = (index) => {
                   <div className="glasscontainer">
                     <div className='logo'>
                       <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-                          <img src={esummitlogo} height="40px" width="221px" alt="E-Summit Logo" style={{ cursor: "pointer" }} />
+                          <img src={konarklogo} height="54px" width="199px" alt="E-Summit Logo" style={{ cursor: "pointer" }} />
                       </Link>
                       <div id="mobile" onClick={() => setNavOpen(!navOpen)}>
                       <i className='bx bx-menu'></i>
