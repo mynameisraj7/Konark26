@@ -15,8 +15,8 @@ function Homemain() {
 
 
   const openGoogleCalendar = () => {
-  const start = "20250825";
-  const end = "20250828";
+  const start = "20260216";
+  const end = "20260218";
   const title = encodeURIComponent("E-Summit 2025");
   const details = encodeURIComponent("Haryana’s biggest Entrepreneurship Summit, hosted by iConnect at GJUS&T Hisar.");
   const location = encodeURIComponent("GJUS&T, Hisar, Haryana");
@@ -109,7 +109,7 @@ function Homemain() {
         <p>
           Haryana’s Biggest Entrepreneurship Summit is here — Turn Your Vision into Exceptional <span>Performance!</span>
         </p>
-        <h2>25th - 27th August 2025</h2>
+        <h2>16th - 18th Feburary 2026</h2>
         <button onClick={openGoogleCalendar}>Save the Date</button>
 
         <div className="ssocials">
