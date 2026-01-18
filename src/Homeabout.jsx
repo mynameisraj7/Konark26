@@ -1,6 +1,6 @@
 import "./Homeabout.css";
-import lowball from "./assets/purpleball.png";
-import highball from "./assets/purpleballhigh.png";
+import lowball from "./assets/blueball.png";
+import highball from "./assets/bluehighball.png";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";

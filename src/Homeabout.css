@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .abback{
-    background: var(--e-summit-purple-00, #100412);
+    background: var(--Base-Bg, linear-gradient(90deg, #070B26 0%, #0D132E 100%));
     padding: 60px 80px;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 .abtitle h2{
     font-size: 100px;
-    color: var(--Neutrals-White, #FFF);
+    color: var(--K26-Silver, #E0E3E8);
 text-align: center;
 font-family: "Overpass";
 font-size: 48px;
@@ -26,7 +26,7 @@ z-index: 1;
 .abline{
     width: 147px;
 height: 4px;
-background: #CF00FF;
+background: linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%);
 margin: 10px auto 0 auto;
 }
 
@@ -34,13 +34,13 @@ margin: 10px auto 0 auto;
   position: absolute;
   z-index: 0;
   bottom:0%;
-  right: -20vh;
+  right: 0vh;
 }
 .abhighball{
   position: absolute;
   z-index: 0;
   top:-1%;
-  left: -23vh;
+  left: 0vh;
 }
 
 
@@ -65,16 +65,16 @@ margin: 10px auto 0 auto;
     z-index: 1;
 }
 .ableftup{
-    background: #1C0021;
+    background: var(--Cards-BG, linear-gradient(180deg, #022E66 0%, #001E21 100%), #FFF);
     width: 100%;
     border-radius: 16px;
-    border: 1px solid #CF00FF;
+    border: 1px solid #00F7FF;
     height: auto;
     padding: 16px;
     margin-bottom: 32px;
 }
 .ableftup h3{
-    color: var(--ESummit-Purple-700, #CF00FF);
+   color: #00F7FF;
     font-family: "Overpass";
     font-size: 24px;
     font-style: normal;
@@ -91,15 +91,15 @@ font-weight: 500;
 line-height: 150%; 
 }
 .ableftbel{
-    background: #1C0021;
+    background: var(--Cards-BG, linear-gradient(180deg, #022E66 0%, #001E21 100%), #FFF);
     width: 100%;
     border-radius: 16px;
-    border: 1px solid #CF00FF;
+    border: 1px solid #00F7FF;;
     height: auto;
     padding: 16px;
 }
 .ableftbel h3{
-    color: var(--ESummit-Purple-700, #CF00FF);
+    color: #00F7FF;
     font-family: "Overpass";
     font-size: 24px;
     font-style: normal;
@@ -165,13 +165,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 border-radius: 16px;
-border: 1px solid #CF00FF;
-background: #1C0021;
+border: 1px solid #00F7FF;;
+background: var(--Cards-BG, linear-gradient(180deg, #022E66 0%, #001E21 100%), #FFF);
 user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
 .abox h2{
-    color: var(--ESummit-Purple-700, #CF00FF);
+   color: #00F7FF;
 
 font-family: "Overpass";
 font-size: 48px;

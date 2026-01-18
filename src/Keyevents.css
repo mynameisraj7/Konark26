@@ -5,14 +5,7 @@
 }
 
 .keyback {
-  background-image: linear-gradient(
-      90deg,
-      rgba(16, 4, 18, 0.7) 0%,
-      #100412 30.29%,
-      #100412 70%,
-      rgba(16, 4, 18, 0.7) 100%
-    ),
-    url("/backgroundimage.jpeg");
+  background-image: linear-gradient(90deg, rgba(4, 13, 18, 0.70) 0%, #040F12 30.29%, #040E12 70%, rgba(16, 4, 18, 0.70) 100%),url("/backgroundimage.png");
   background-size: contain;
   padding: 60px 80px;
   display: flex;
@@ -22,7 +15,7 @@
 }
 
 .keytitle h2 {
-  color: var(--Neutrals-White, #FFF);
+  color: var(--K26-Silver, #E0E3E8);
   text-align: center;
   font-family: "Overpass";
   font-size: 48px;
@@ -34,7 +27,7 @@
 .keyline {
   width: 147px;
   height: 4px;
-  background: #cf00ff;
+  background: linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%);
   margin: 10px auto 0 auto;
 }
 
@@ -83,7 +76,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px solid #cf00ff;
+   border: 1px solid #00F7FF;
   padding: 8px 8px 16px 8px;
 }
 
@@ -103,7 +96,7 @@
 }
 
 .card-front h2 {
-  color: var(--Neutrals-White, #fff);
+  color: var(--K26-Silver, #E0E3E8);
   font-family: "Overpass";
   font-size: 1.5rem;
   font-weight: 700;
@@ -123,7 +116,9 @@
 }
 
 .card-front .smallcardtext p {
-  color: var(--ESummit-Purple-700, #cf00ff);
+  background: linear-gradient(90deg, #328BFF 0%, #09EAFE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: "Proximasans";
   font-size: 1rem;
   font-weight: 500;
@@ -133,7 +128,7 @@
 }
 
 .card-front .smallcardtext a {
-  color: #f2ff00;
+  color: var(--K26-Yellow, #FFB84D);
   font-family: "Proximasans";
   font-size: 14px;
   font-style: normal;
@@ -151,11 +146,11 @@
 /* ==== Back Face ==== */
 .card-back {
   transform: rotateY(180deg);
-   background: #100412;
+  background: var(--Cards-BG, linear-gradient(180deg, #022E66 0%, #001E21 100%), #FFF);
 }
 
 .card-back h2 {
-  color: white;
+  color: var(--K26-Silver, #E0E3E8);
   font-family: "Overpass";
   font-size: 1.5rem;
   margin-bottom: 10px;
@@ -169,7 +164,7 @@ user-select: none;
 .card-back p {
   font-family: "Proximasans";
   font-size: 1rem;
-  color: #cf00ff;
+  color: #00F7FF;
   font-style: normal;
 font-weight: 500;
 line-height: 150%;
@@ -188,9 +183,9 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 125%; 
-color: #FFF;
+color: var(--K26-Silver, #E0E3E8);
 border-radius: 8px;
-border: 1.5px solid var(--Neutrals-White, #FFF);
+border: 1.5px solid var(--K26-Silver, #E0E3E8);
 margin-top: auto;
 user-select: none;
   -webkit-tap-highlight-color: transparent;
@@ -201,7 +196,7 @@ user-select: none;
 padding: 12px 48px;
 justify-content: center;
 align-items: center;
-background: white;
+background: var(--K26-Silver, #E0E3E8);
 font-family: "Roboto";
 font-size: 16px;
 font-style: normal;
@@ -209,7 +204,7 @@ font-weight: 500;
 line-height: 125%; 
 color: black;
 border-radius: 8px;
-border: 1.5px solid var(--Neutrals-White, #FFF);
+border: 1.5px solid var(--K26-Silver, #E0E3E8);
 margin-top: 12px;
 user-select: none;
   -webkit-tap-highlight-color: transparent;
@@ -217,7 +212,7 @@ user-select: none;
 
 /* ==== Button Section ==== */
 .morecards {
-  color: #f2ff00;
+  color: var(--K26-Yellow, #FFB84D);
   font-family: "Proximanova";
   font-size: 1rem;
   font-style: normal;
@@ -249,7 +244,7 @@ user-select: none;
   top: 127px;
   right: -300px;
   background-color: #111;
-  color: #fff;
+  color: var(--K26-Silver, #E0E3E8);
   font-family: "Overpass";
   padding: 10px 20px;
   border-radius: 10px;

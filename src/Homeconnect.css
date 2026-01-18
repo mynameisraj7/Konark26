@@ -5,7 +5,7 @@
 }
 .conback{
     min-height: 100vh;
-    background-image: linear-gradient(90deg, rgba(16, 4, 18, 0.70) 0%, #100412 30.29%, #100412 70%, rgba(16, 4, 18, 0.70) 100%),url("/backgroundimage.jpeg");
+    background-image: linear-gradient(90deg, rgba(4, 13, 18, 0.70) 0%, #040F12 30.29%, #040E12 70%, rgba(16, 4, 18, 0.70) 100%),url("/backgroundimage.png");
     background-size: contain;
     padding: 90px 60px 90px 60px;
     display: flex;
@@ -14,7 +14,7 @@
 }
 .contitle h2{
     font-size: 100px;
-    color: var(--Neutrals-White, #FFF);
+    color: var(--K26-Silver, #E0E3E8);
 text-align: center;
 font-family: "Overpass";
 font-size: 48px;
@@ -25,7 +25,7 @@ line-height: 125%;
 .conline{
     width: 147px;
 height: 4px;
-background: #CF00FF;
+background: linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%);
 margin: 10px auto 0 auto;
 }
 .concontainer {
@@ -42,11 +42,11 @@ margin: 10px auto 0 auto;
     justify-content: center;
     width: 70%;
     border-radius: 16px;
-border: 1px solid #CF00FF;
-background: #1C0021;
+border: 1px solid #00F7FF;
+background: var(--Base-Bg, linear-gradient(90deg, #070B26 0%, #0D132E 100%));
 }
 .usleft h2{
-    color: var(--Neutrals-White, #FFF);
+    color: var(--K26-Silver, #E0E3E8);
 font-family: "Overpass";
 font-size: 24px;
 font-style: normal;
@@ -55,7 +55,7 @@ line-height: 125%; /* 30px */
 }
 
 .frame1 div{
-    color: var(--ESummit-Purple-700, #9A13BC);
+    color: #00F7FF;
 /* Labels/Regular/L5 */
 font-family: "Roboto";
 font-size: 0.9rem;
@@ -67,14 +67,14 @@ margin-bottom: 8px;
 }
 .frame1 input{
     border-radius: 8px;
-border: 1px solid var(--ESummit-Purple-700, #9A13BC);
+border: 1px solid #00F7FF;
 background: transparent;
 width: 100%;
 padding: 12px;
-color: white;
+color: var(--K26-Silver, #E0E3E8);
 }
 .frame1 input::placeholder{
-    color: var(--ESummit-Purple-700, #9A13BC);
+    color: #00F7FF;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -84,7 +84,7 @@ user-select: none;
 }
 
 .frame2 div{
-    color: var(--ESummit-Purple-700, #9A13BC);
+    color: #00F7FF;
 /* Labels/Regular/L5 */
 font-family: "Roboto";
 font-size: 0.9rem;
@@ -96,11 +96,11 @@ margin-bottom: 8px;
 }
 .frame2 textarea{
     border-radius: 8px;
-border: 1px solid var(--ESummit-Purple-700, #9A13BC);
+border: 1px solid #00F7FF;
 background: transparent;
 width: 100%;
 padding: 12px;
-color: white;
+color: var(--K26-Silver, #E0E3E8);
 resize: none;
 overflow: hidden;
 height: 85px;
@@ -108,7 +108,7 @@ user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
 .frame2 textarea::placeholder{
-    color: var(--ESummit-Purple-700, #9A13BC);
+    color: #00F7FF;
 font-size: 13.3333px;
 font-style: normal;
 font-weight: 400;
@@ -119,7 +119,7 @@ line-height: 125%; /* 17.5px */
     color: var(--e-summit-purple-00, #100412);
 text-align: center;
 border-radius: 8px;
-background: var(--Neutrals-White, #FFF);
+background: var(--K26-Silver, #E0E3E8);
 font-family: "Roboto";
 cursor: pointer;
 font-size: 16px;
@@ -136,7 +136,7 @@ padding: 12px 48px;
   -webkit-tap-highlight-color: transparent;
 }
 .contbutton:hover{
-    color: var(--ESummit-Purple-700, #9A13BC);
+    color: #00F7FF;
 
 }
 
@@ -145,7 +145,7 @@ padding: 12px 48px;
 .usright{
         border-radius: 16px;
         width: 70%;
-background: #1C0021;
+background: var(--Base-Bg, linear-gradient(90deg, #070B26 0%, #0D132E 100%));
 gap:20px;
 display: flex;
     flex-direction: column;
@@ -154,13 +154,13 @@ display: flex;
 
 .ussocials{
      padding: 24px 16px;
-     border: 1px solid #CF00FF;
+     border: 1px solid #00F7FF;
      height: 25%;
      border-radius: 16px;
     
 }
 .ussocials h2{
-    color: var(--Neutrals-White, #FFF);
+    color: var(--K26-Silver, #E0E3E8);
 font-family: "Overpass";
 font-size: 24px;
 font-style: normal;
@@ -185,18 +185,18 @@ line-height: 125%; /* 30px */
   transition: 0.3s ease;
 }
 .socials i:hover {
-  color: white;
+  color: var(--K26-Silver, #E0E3E8);
   transform: scale(1.1);
 }
 
 .reachus{
     padding: 24px 16px;
-    border: 1px solid #CF00FF;
+    border: 1px solid #00F7FF;
     height: 75%;
     border-radius: 16px;
 }
 .reachus h2{
-    color: var(--Neutrals-White, #FFF);
+    color: var(--K26-Silver, #E0E3E8);
 font-family: "Overpass";
 font-size: 24px;
 font-style: normal;

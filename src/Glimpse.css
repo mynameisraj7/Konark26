@@ -5,14 +5,14 @@
 }
 
 .glimpseback {
-  background: var(--e-summit-purple-00, #100412);
+  background: var(--Base-Bg, linear-gradient(90deg, #070B26 0%, #0D132E 100%));
   padding: 10px 80px 60px 80px;
   position: relative;
   overflow-x: hidden;
 }
 
 .glimtitle h2 {
-  color: var(--Neutrals-White, #FFF);
+  color: var(--K26-Silver, #E0E3E8);
   text-align: center;
   font-family: "Overpass";
   font-size: 48px;
@@ -24,7 +24,7 @@
 .glimline {
   width: 147px;
   height: 4px;
-  background: #CF00FF;
+  background: linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%);
   margin: 10px auto 0 auto;
 }
 .lowball{
@@ -73,10 +73,10 @@
 .custom-arrow {
   width: 44px;
   height: 44px;
-  border: 1px solid #CF00FF;
+  border: 1px solid #00F7FF;
   border-radius: 50%;
   background-color: transparent;
-  color: #CF00FF ;
+  color: #00F7FF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +128,7 @@
   width: 14px;
   height: 14px;
   background: transparent;
-  border: 2px solid #CF00FF;
+  border: 2px solid #00F7FF;
   border-radius: 50%;
   box-sizing: border-box;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -136,7 +136,7 @@
 }
 
 .slick-dots li.slick-active button:before {
-  background-color: #CF00FF;
+  background-color: #00F7FF;
   transform: scale(1.1);
 }
 
@@ -204,7 +204,7 @@
   .slick-dots li button:before {
   width: 10px;
   height: 10px;
-  border: 1px solid #CF00FF;
+  border: 1px solid #00F7FF;
   }
   .custom-arrow {
   width: 34px;

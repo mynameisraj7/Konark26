@@ -9,8 +9,8 @@ import logo4 from "./assets/glimpse4.JPG";
 import logo5 from "./assets/glimpse5.JPG";
 import logo6 from "./assets/glimpse6.JPG";
 import logo7 from "./assets/glimpse7.JPG";
-import lowball from "./assets/purpleball.png"
-import highball from "./assets/purpleballhigh.png"
+import lowball from "./assets/gblueball.png"
+import highball from "./assets/gbluehighball.png"
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";

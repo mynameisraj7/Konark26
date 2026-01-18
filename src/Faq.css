@@ -5,7 +5,7 @@
 }
 .footerimg{
     min-height: 95vh;
-    background-image: linear-gradient(90deg, rgba(16, 4, 18, 0.70) 0%, #100412 30.29%, #100412 70%, rgba(16, 4, 18, 0.70) 100%),url("/backgroundimage.jpeg");
+    background-image: linear-gradient(90deg, rgba(4, 13, 18, 0.70) 0%, #040F12 30.29%, #040E12 70%, rgba(16, 4, 18, 0.70) 100%),url("/backgroundimage.png");
     background-size: contain;
     padding-top: 90px;
      overflow-x: hidden;
@@ -14,7 +14,7 @@
 }
 .faqtitle h2{
     font-size: 100px;
-    color: var(--Neutrals-White, #FFF);
+    color: var(--K26-Silver, #E0E3E8);
 text-align: center;
 font-family: "Overpass";
 font-size: 48px;
@@ -25,7 +25,7 @@ line-height: 125%;
 .faqline{
     width: 147px;
 height: 4px;
-background: #CF00FF;
+background: linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%);
 margin: 10px auto 0 auto;
 }
 
@@ -43,12 +43,12 @@ margin: 10px auto 0 auto;
   padding: 12px 16px;
   cursor: pointer;
   margin-bottom: 24px;
-  background: #1A011F;
+  background: var(--Cards-BG, linear-gradient(180deg, #022E66 0%, #001E21 100%), #FFF);
   user-select: none;       
   outline: none;    
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-  border: 1px solid #CF00FF;
+  border: 1px solid #00F7FF;
   border-radius: 8px;
 }
 
@@ -70,7 +70,7 @@ margin: 10px auto 0 auto;
 }
 
 .faq-question:hover {
-  color: #cf00ff;
+  color: #00F7FF;
 }
 
 .faq-answer {

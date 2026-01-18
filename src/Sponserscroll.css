@@ -5,13 +5,13 @@
 }
 
 .sponserimg {
-  background: var(--e-summit-purple-00, #100412);
+  background: var(--Base-Bg, linear-gradient(90deg, #070B26 0%, #0D132E 100%));
   padding: 60px 80px;
 }
 
 .sponsertitle h2 {
   font-size: 48px;
-  color: var(--Neutrals-White, #FFF);
+  color: var(--K26-Silver, #E0E3E8);
   text-align: center;
   font-family: "Overpass";
   font-style: normal;
@@ -20,9 +20,9 @@
 }
 
 .sponserline {
-  width: 147px;
+  width: 160px;
   height: 4px;
-  background: #CF00FF;
+  background: linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%);
   margin: 10px auto 0 auto;
 }
 
