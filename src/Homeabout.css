@@ -74,7 +74,10 @@ margin: 10px auto 0 auto;
     margin-bottom: 32px;
 }
 .ableftup h3{
-   color: #00F7FF;
+   background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
     font-family: "Overpass";
     font-size: 24px;
     font-style: normal;
@@ -99,7 +102,10 @@ line-height: 150%;
     padding: 16px;
 }
 .ableftbel h3{
-    color: #00F7FF;
+    background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
     font-family: "Overpass";
     font-size: 24px;
     font-style: normal;
@@ -171,7 +177,10 @@ user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
 .abox h2{
-   color: #00F7FF;
+   background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 font-family: "Overpass";
 font-size: 48px;

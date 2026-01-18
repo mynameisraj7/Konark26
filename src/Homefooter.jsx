@@ -1,6 +1,6 @@
 import "./Homefooter.css";
 import iconnectlogo from "./assets/iconnectlog.svg";
-import esummitlogo from "./assets/esummitlogo.png";
+import konarklogo from "./assets/konark.png";
 import whiteline from "./assets/whiteline.png";
 
 
@@ -12,7 +12,7 @@ function Homefooter() {
             <div className="foottop">
             <div className="footleft">
             <div className="imgcontent">
-              <img src={esummitlogo} alt="footer image" />
+              <img src={konarklogo} alt="footer image" />
               <img src={whiteline} alt="footer image" />
               <img src={iconnectlogo} alt="footer image" />
             </div>

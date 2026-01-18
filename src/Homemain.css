@@ -9,7 +9,7 @@
   min-height: 100vh;
   padding-top: 90px;
   overflow: hidden;
-  background: var(--hero-Section-gradient, linear-gradient(180deg, rgba(53, 0, 72, 0.85) 0%, rgba(15, 0, 21, 0.85) 50%, rgba(45, 0, 55, 0.85) 100%));
+  background: linear-gradient(90deg, rgba(7, 11, 38, 0.80) 0%, rgba(13, 19, 46, 0.80) 100%),url("/backgroundimage.png");
   text-align: center;
 }
 
@@ -76,14 +76,14 @@
   bottom: 3px;
   width: 0;
   height: 2px;
-  background-color: #CF00FF;
+  background-color: #00F7FF;
   transition: width 0.5s ease, left 0.3s ease;
   transform: translateX(-50%);
 }
 
 #navbar a:hover,
 #navbar a.active {
-  color: #CF00FF;
+  color: #00F7FF;
 }
 
 #navbar a:hover::after,
@@ -150,7 +150,10 @@ height: auto;
 }
 
 .heroback p span{
-    color: var(--ESummit-Purple-700, #CF00FF);
+    background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-family: "Proximanova";
 font-size: 24px;
 font-style: italic;
@@ -158,7 +161,7 @@ font-weight: 600;
 line-height: 125%;
 }
 .heroback h2{
-    color: #F2FF00;
+    color:  #FFB84D;
 text-align: center;
 font-family: "Overpass";
 font-size: 32px;
@@ -170,12 +173,12 @@ line-height: 125%;
     display: flex;
     background-color: transparent;
     border-radius: 12px;
-    border: 2px solid #F2FF00;
+    border: 2px solid  #FFB84D;
     width: 362px;
     padding: 16px 48px;
     justify-content: center;
     align-items: center;
-    color: #F2FF00;
+    color: var(--K26-Yellow, #FFB84D);
     text-align: center;
     font-family: "Roboto";
     font-size: 24px;
@@ -185,7 +188,7 @@ line-height: 125%;
     margin: 24px auto;
 }
 .heroback button:hover{
-    background-color: #F2FF00;
+    background-color:  #FFB84D;
     color: black;
     cursor: pointer;
     transition: all 0.6s ease;
@@ -369,7 +372,7 @@ line-height: 125%;
   }
 
   .mobile-nav #navbar a:hover {
-    color: #CF00FF;
+    color: #00F7FF;
   }
   .mobile-nav-wrapper {
   overflow: hidden;
@@ -479,7 +482,7 @@ line-height: 125%;
     padding: 30px 20px 0px 20px;
 }
 .logo img{
-    width:190px;
+    width:160px;
     height: 40px;
   }
 }
@@ -496,8 +499,8 @@ line-height: 125%;
     height: 280px;
   }
   .logo img{
-    width:155px;
-    height: 32px;
+    width:132px;
+    height: 38px;
   }
   .centericon{
     margin-top: 40px;

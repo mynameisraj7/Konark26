@@ -55,7 +55,10 @@ line-height: 125%; /* 30px */
 }
 
 .frame1 div{
-    color: #00F7FF;
+   background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 /* Labels/Regular/L5 */
 font-family: "Roboto";
 font-size: 0.9rem;
@@ -74,7 +77,10 @@ padding: 12px;
 color: var(--K26-Silver, #E0E3E8);
 }
 .frame1 input::placeholder{
-    color: #00F7FF;
+  background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -84,7 +90,10 @@ user-select: none;
 }
 
 .frame2 div{
-    color: #00F7FF;
+  background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 /* Labels/Regular/L5 */
 font-family: "Roboto";
 font-size: 0.9rem;
@@ -108,7 +117,10 @@ user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
 .frame2 textarea::placeholder{
-    color: #00F7FF;
+   background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-size: 13.3333px;
 font-style: normal;
 font-weight: 400;

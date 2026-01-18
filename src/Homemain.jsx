@@ -1,7 +1,7 @@
 import "./Homemain.css";
 import backvideo from "./assets/backvideo2.mp4";
 import iconnectlogo from "./assets/iconnectlog.svg";
-import esummitlogo from "./assets/esummitlogo.png";
+import konarklogo from "./assets/konark.png";
 import mainlogomobile from "./assets/mainlogomobile.gif";
 import whitelogo from "./assets/whitelogo.gif";
 import { useState, useEffect } from "react";
@@ -56,7 +56,7 @@ function Homemain() {
           <div className="glasscontainer">
             <div className='logo'>
               <a href="#home" onClick={(e) => handleScrollLink(e, "home")}>
-                      <img src={esummitlogo} height="40px" width="221px" alt="E-Summit Logo" />
+                      <img src={konarklogo} height="54px" width="199px" alt="E-Summit Logo" />
               </a>
               <div id="mobile" onClick={() => setNavOpen(!navOpen)}>
               <i className='bx bx-menu'></i>
@@ -90,9 +90,9 @@ function Homemain() {
           </div>
         </div>
 
-        <video autoPlay muted loop className="bg-video">
+        {/* <video autoPlay muted loop className="bg-video">
               <source src={backvideo} type="video/mp4" />
-        </video>
+        </video> */}
 
 
         <img className="centericon" src={iconnectlogo} alt="footer image" />

@@ -45,7 +45,7 @@ function Homeabout() {
             <div className="abright" data-aos="fade-left">
               <div className="video-container">
                 <iframe
-                  src="https://www.youtube.com/embed/r97D4WdX7KM"
+                  src="https://www.youtube.com/embed/gHFVHLdL7dM"
                   title="E-Summit Promo"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
