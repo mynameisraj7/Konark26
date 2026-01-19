@@ -9,6 +9,7 @@ import escape from "../assets/b.jpg";
 import rube from "../assets/c.jpg";
 import brainbat from "../assets/d.jpg";
 import crown from "../assets/f.jpg";
+import zone from "../assets/zone.jpg";
 import konarklogo from "../assets/konark.png";
 import { useEffect,useState } from "react";
 import AOS from "aos";
@@ -104,7 +105,7 @@ const toggleFlipRow3 = (index) => {
           image:idea,
           description:"IDEATHON is a creative ideation and poster presentation competition where students showcase innovative, impactful solutions to real-world challenges across diverse domains.",
           ruleBookLink: "https://drive.google.com/drive/folders/1XcPZ-bJInGX6SHtGh6_Ru9Ut3ygajVIO?usp=drive_link",
-          registerLink: "https://unstop.com/p/ideathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar",
+          registerLink: "https://unstop.com/p/ideathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1617990",
         },
         {
           title: "Tech Hackathon",
@@ -169,15 +170,14 @@ const toggleFlipRow3 = (index) => {
             ruleBookLink: "https://drive.google.com/drive/folders/1Thxl48uOUO1QhYWidgPf8NaRC25snSxn?usp=drive_link",
             registerLink: "https://forms.gle/f3b9hKGivFmfpTgP9",
       },
-      
-      // {
-      //   title: "Brain Battles",
-      //       date: "26th August 2025",
-      //       image:crown,
-      //       description:"Brain Battles is a high-energy intellectual competition that tests critical thinking, rapid recall, and linguistic precision beyond traditional quizzes.",
-      //       ruleBookLink: "https://drive.google.com/drive/folders/1lpCL9Vb8etxu9u4A94gFxjBe_tAGUaGc?usp=drive_link",
-      //       registerLink: "https://forms.gle/JGDCxkC2uPK4wqy79",
-      // },
+      {
+        title: "The Expo Zone",
+            date: "16th February 2026",
+            image:zone,
+            description:"Konark’26 Startup Showcase cum Exhibition provides a platform for student innovators and startups to exhibit their ideas, connect with a wider audience, and foster innovation through networking and collaboration.",
+            ruleBookLink: "",
+            registerLink: "https://forms.gle/7L5yWRfzdFUgomsw9",
+      },
     ];
 
   return (

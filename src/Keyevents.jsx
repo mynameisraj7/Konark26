@@ -61,7 +61,7 @@ function Keyevents() {
     image:idea,
     description:"IDEATHON is a creative ideation and poster presentation competition where students showcase innovative, impactful solutions to real-world challenges across diverse domains.",
     ruleBookLink: "https://drive.google.com/drive/folders/1XcPZ-bJInGX6SHtGh6_Ru9Ut3ygajVIO?usp=drive_link",
-    registerLink: "https://unstop.com/p/ideathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar",
+    registerLink: "https://unstop.com/p/ideathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1617990",
   },
   {
     title: "Tech Hackathon",
