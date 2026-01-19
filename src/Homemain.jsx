@@ -16,8 +16,8 @@ function Homemain() {
   const openGoogleCalendar = () => {
   const start = "20260216";
   const end = "20260218";
-  const title = encodeURIComponent("E-Summit 2025");
-  const details = encodeURIComponent("Haryana’s biggest Entrepreneurship Summit, hosted by iConnect at GJUS&T Hisar.");
+  const title = encodeURIComponent("Konark 2026");
+  const details = encodeURIComponent("Haryana’s biggest Tech Fest, hosted by iConnect at GJUS&T Hisar.");
   const location = encodeURIComponent("GJUS&T, Hisar, Haryana");
   
   const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${start}/${end}&details=${details}&location=${location}`;
@@ -66,7 +66,8 @@ function Homemain() {
               <ul id="navbar">
                 <li><a href="#home" onClick={(e) => handleScrollLink(e, "home")}>Home</a></li>
                 <li><a href="#about" onClick={(e) => handleScrollLink(e, "about")}>About</a></li>
-                <li><a href="#events" onClick={(e) => handleScrollLink(e, "events")}>Events</a></li>
+                <li><Link to="/more-events" className="morecards">Events</Link></li>
+                {/* <li><a href="/more-events" onClick={(e) => handleScrollLink(e, "events")}>Events</a></li> */}
                 <li><a href="#gallery" onClick={(e) => handleScrollLink(e, "gallery")}>Gallery</a></li>
                 <li><a href="#contact" onClick={(e) => handleScrollLink(e, "contact")}>Contact us</a></li>
                 <li><a href="#faq" onClick={(e) => handleScrollLink(e, "faq")}>FAQs</a></li>

@@ -48,7 +48,7 @@ function Keyevents() {
 
   const events = [
   {
-    title: "VISONATHON",
+    title: "VISIONATHON",
     date: "17th Feb 2026",
     image:vision,
     description:"Visionathon is an innovation-driven competition where participants design impactful, feasible solutions to real-world challenges through creativity, collaboration, and mentorship.",

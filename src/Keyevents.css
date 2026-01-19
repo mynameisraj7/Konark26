@@ -336,7 +336,7 @@ user-select: none;
     padding: 7px 0px;
   }
   .fourcardcontainer {
-  gap: 15px;
+  gap: 10px;
   }
   .card-front img {
     height: 212.5px;
@@ -345,6 +345,12 @@ user-select: none;
 @media (max-width: 400px) {
   .keyback{
     padding: 60px 10px;
+  }
+  .card-front .smallcardtext {
+  margin-top: 5px;
+  }
+  .card-front img {
+    height: 202.5px;
   }
 }
 @media (max-width: 360px) {

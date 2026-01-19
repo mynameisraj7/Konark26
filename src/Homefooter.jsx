@@ -17,9 +17,7 @@ function Homefooter() {
               <img src={iconnectlogo} alt="footer image" />
             </div>
             <div className="lowerimg">
-              E-Summit GJUS&T Hisar is Haryana’s largest entrepreneurial fest,<br/> 
-              organized by the Team iConnect,PDUIIC to inspire and empower<br/>
-               future leaders and prosper nations growth
+              Konark’26 at GJUS&T Hisar is Haryana’s premier technology and innovation fest, organized by Team iConnect, PDUIIC, to inspire creativity, foster innovation, and empower the next generation of visionary leaders.
             </div>
             
             </div>
@@ -31,11 +29,12 @@ function Homefooter() {
             </div>
             <div className="footright">
               <div className="footcontact">
-                <h2>Contact</h2>
+                <h2>Query</h2>
                 <div className="contactcontent">
                 <div className="conleft">
-                  <h3>For Accomodation queries</h3>
-                  <div className="phonecont">
+                  <h3>Let us know about your queries</h3>
+                  <button className="footbut">Click Here!!</button>
+                  {/* <div className="phonecont">
                      <i class='bx bx-phone'></i>
                      <p>+91 7011964796 (Yuvansh)</p>
                   </div>
@@ -51,17 +50,13 @@ function Homefooter() {
                    <div className="phonecont">
                      <i class='bx bx-phone'></i>
                      <p>+91 7015537609 (Krish)</p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="conright">
                    <h3>For other queries</h3>
-                  {/* <div className="phonecont">
+                  <div className="phonecont">
                      <i class='bx bx-phone'></i>
-                     <p>+91 9467905906 (Naina)</p>
-                  </div> */}
-                   <div className="phonecont">
-                     <i class='bx bx-phone'></i>
-                     <p>+91 6281482740 (Rohit)</p>
+                     <p>+91 9467905906</p>
                   </div>
                 <h3>You can also mail us at</h3> 
                  <div className="phonecont">

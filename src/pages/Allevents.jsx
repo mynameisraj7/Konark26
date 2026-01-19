@@ -92,7 +92,7 @@ const toggleFlipRow3 = (index) => {
     
       const events = [
         {
-          title: "VISONATHON",
+          title: "VISIONATHON",
           date: "17th Feb 2026",
           image:vision,
           description:"Visionathon is an innovation-driven competition where participants design impactful, feasible solutions to real-world challenges through creativity, collaboration, and mentorship.",
@@ -171,7 +171,7 @@ const toggleFlipRow3 = (index) => {
             registerLink: "https://forms.gle/f3b9hKGivFmfpTgP9",
       },
       {
-        title: "The EXPO ZONE",
+        title: "THE EXPO ZONE",
             date: "16th Feb 2026",
             image:zone,
             description:"Konark’26 Startup Showcase cum Exhibition provides a platform for student innovators and startups to exhibit their ideas, connect with a wider audience, and foster innovation through networking and collaboration.",

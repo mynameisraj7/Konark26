@@ -317,7 +317,7 @@ user-select: none;
     padding: 7px 0px;
   }
   .ffourcardcontainer {
-  gap: 15px;
+  gap: 10px;
   }
   .ccard-front img {
     height: 212.5px;
@@ -326,6 +326,12 @@ user-select: none;
 @media (max-width: 400px) {
   .kkeyback{
     padding: 60px 10px;
+  }
+  .ccard-front .ssmallcardtext {
+  margin-top: 5px;
+  }
+  .ccard-front img {
+    height: 202.5px;
   }
 }
 @media (max-width: 360px) {
