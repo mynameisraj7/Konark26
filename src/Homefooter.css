@@ -189,7 +189,8 @@ line-height: 125%; /* 20px */
       align-items: center;      /* vertical center */
   justify-content: center;
   height: 35px;
-  width: 200px;
+  width: 230px;
+  text-decoration: none;
   line-height: normal;
     transition: color 0.3s;
     user-select: none;

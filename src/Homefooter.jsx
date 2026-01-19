@@ -32,8 +32,8 @@ function Homefooter() {
                 <h2>Query</h2>
                 <div className="contactcontent">
                 <div className="conleft">
-                  <h3>Let us know about your queries</h3>
-                  <button className="footbut">Click Here!!</button>
+                  <h3>Let us know about your queries.<br/> Support will be given within 24 hours.</h3>
+                  <a href="https://forms.gle/XUtgD2DS21iNYeDR9" className="footbut">Click Here!!</a>
                   {/* <div className="phonecont">
                      <i class='bx bx-phone'></i>
                      <p>+91 7011964796 (Yuvansh)</p>
