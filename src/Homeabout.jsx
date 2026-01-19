@@ -14,7 +14,7 @@ function Homeabout() {
     <>
       <section id="about" className="abback">
         <div className="abtitle" data-aos="fade-down">
-          <h2>About E-Summit</h2>
+          <h2>About Konark</h2>
           <div className="abline"></div>
         </div>
 

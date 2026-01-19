@@ -2,13 +2,13 @@ import "./Glimpse.css";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 
-import logo1 from "./assets/glimpse1.JPG";
-import logo2 from "./assets/glimpse2.JPG";
-import logo3 from "./assets/glimpse3.JPG";
-import logo4 from "./assets/glimpse4.JPG";
-import logo5 from "./assets/glimpse5.JPG";
-import logo6 from "./assets/glimpse6.JPG";
-import logo7 from "./assets/glimpse7.JPG";
+import logo1 from "./assets/glim1.Jpeg";
+import logo2 from "./assets/glim2.Jpeg";
+import logo3 from "./assets/glim3.Jpeg";
+import logo4 from "./assets/glim4.Jpeg";
+import logo5 from "./assets/glim5.Jpeg";
+import logo6 from "./assets/glim6.jpeg";
+import logo7 from "./assets/glim7.jpeg";
 import lowball from "./assets/gblueball.png"
 import highball from "./assets/gbluehighball.png"
 import { useEffect } from "react";
@@ -44,7 +44,7 @@ function Glimpse() {
   return (
     <section id="gallery" className="glimpseback">
       <div className="glimtitle" data-aos="fade-down">
-        <h2>Glimpses of E-Summit ‘24</h2>
+        <h2>Glimpses of E-Summit ‘25</h2>
         <div className="glimline"></div>
       </div>
       <div className="lowball" data-aos="fade-right">
