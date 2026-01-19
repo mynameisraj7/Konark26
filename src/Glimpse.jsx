@@ -2,11 +2,11 @@ import "./Glimpse.css";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 
-import logo1 from "./assets/glim1.Jpeg";
-import logo2 from "./assets/glim2.Jpeg";
-import logo3 from "./assets/glim3.Jpeg";
-import logo4 from "./assets/glim4.Jpeg";
-import logo5 from "./assets/glim5.Jpeg";
+import logo1 from "./assets/glim1.jpeg";
+import logo2 from "./assets/glim2.jpeg";
+import logo3 from "./assets/glim3.jpeg";
+import logo4 from "./assets/glim4.jpeg";
+import logo5 from "./assets/glim5.jpeg";
 import logo6 from "./assets/glim6.jpeg";
 import logo7 from "./assets/glim7.jpeg";
 import lowball from "./assets/gblueball.png"
