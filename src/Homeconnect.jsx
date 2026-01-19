@@ -121,7 +121,7 @@ function Homeconnect() {
       name="subject"
       value={formData.subject}
       onChange={handleChange}
-      placeholder="Startup Spotlight"
+      placeholder="Ideathon"
       required
     />
   </div>

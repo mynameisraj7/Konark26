@@ -1,5 +1,4 @@
 import "./Homemain.css";
-import backvideo from "./assets/backvideo2.mp4";
 import iconnectlogo from "./assets/iconnectlog.svg";
 import konarklogo from "./assets/konark.png";
 import mainlogomobile from "./assets/mainlogomobile.gif";

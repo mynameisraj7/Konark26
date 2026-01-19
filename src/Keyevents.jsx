@@ -49,7 +49,7 @@ function Keyevents() {
   const events = [
   {
     title: "Visonthon",
-    date: "26th August 2025",
+    date: "17th February 2026",
     image:vision,
     description:"Visionathon is an innovation-driven competition where participants design impactful, feasible solutions to real-world challenges through creativity, collaboration, and mentorship.",
     ruleBookLink: "https://drive.google.com/drive/folders/1d-jEhnqwtxxMDg6kD0V_QKjxZhMDkWdC?usp=sharing",
@@ -57,7 +57,7 @@ function Keyevents() {
   },
   {
     title: "Ideathon",
-    date: "25th August 2025",
+    date: "16th February 2026",
     image:idea,
     description:"IDEATHON is a creative ideation and poster presentation competition where students showcase innovative, impactful solutions to real-world challenges across diverse domains.",
     ruleBookLink: "https://drive.google.com/drive/folders/1XcPZ-bJInGX6SHtGh6_Ru9Ut3ygajVIO?usp=drive_link",
@@ -65,7 +65,7 @@ function Keyevents() {
   },
   {
     title: "Tech Hackathon",
-            date: "26th August 2025",
+            date: "16th February 2026",
             image:hacka,
             description:"SustainTech Hackathon is a software-focused competition where students develop innovative, impactful, and technology-driven digital solutions to real-world sustainability challenges.",
             ruleBookLink: "https://drive.google.com/drive/folders/1c0lVUXRmt8x_ShDlftGJQPGickgzAEGu?usp=sharing",
@@ -73,7 +73,7 @@ function Keyevents() {
   },
   {
     title: "CAD Masters",
-    date: "25th August 2025",
+    date: "16th February 2026",
     image:cad,
     description:"CAD MASTERS is a design-centric CAD modelling competition where participants create innovative, sustainable, and practical 3D solutions to real-world problems, with winning designs brought to life through 3D printing.",
     ruleBookLink: "https://drive.google.com/drive/folders/1y-nHi3qeh1ov3XdVH78ZI-fu1lv4HSCY?usp=sharing",

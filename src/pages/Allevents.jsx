@@ -63,6 +63,7 @@ function Allevents() {
     
       const [flippedIndexesRow1, setFlippedIndexesRow1] = useState([]);
 const [flippedIndexesRow2, setFlippedIndexesRow2] = useState([]);
+const [flippedIndexesRow3, setFlippedIndexesRow3] = useState([]);
 
 const toggleFlipRow1 = (index) => {
   setFlippedIndexesRow1((prev) =>
@@ -80,12 +81,18 @@ const toggleFlipRow2 = (index) => {
   );
 };
 
-    
+const toggleFlipRow3 = (index) => {
+  setFlippedIndexesRow3((prev) =>
+    prev.includes(index)
+      ? prev.filter((i) => i !== index)
+      : [...prev, index]
+  );
+};
     
       const events = [
         {
           title: "Visonthon",
-          date: "26th August 2025",
+          date: "17th February 2026",
           image:vision,
           description:"Visionathon is an innovation-driven competition where participants design impactful, feasible solutions to real-world challenges through creativity, collaboration, and mentorship.",
           ruleBookLink: "https://drive.google.com/drive/folders/1d-jEhnqwtxxMDg6kD0V_QKjxZhMDkWdC?usp=sharing",
@@ -93,7 +100,7 @@ const toggleFlipRow2 = (index) => {
         },
         {
           title: "Ideathon",
-          date: "25th August 2025",
+          date: "16th February 2026",
           image:idea,
           description:"IDEATHON is a creative ideation and poster presentation competition where students showcase innovative, impactful solutions to real-world challenges across diverse domains.",
           ruleBookLink: "https://drive.google.com/drive/folders/1XcPZ-bJInGX6SHtGh6_Ru9Ut3ygajVIO?usp=drive_link",
@@ -101,7 +108,7 @@ const toggleFlipRow2 = (index) => {
         },
         {
           title: "Tech Hackathon",
-                  date: "26th August 2025",
+                  date: "16th February 2026",
                   image:hacka,
                   description:"SustainTech Hackathon is a software-focused competition where students develop innovative, impactful, and technology-driven digital solutions to real-world sustainability challenges.",
                   ruleBookLink: "https://drive.google.com/drive/folders/1c0lVUXRmt8x_ShDlftGJQPGickgzAEGu?usp=sharing",
@@ -109,7 +116,7 @@ const toggleFlipRow2 = (index) => {
         },
         {
           title: "CAD Masters",
-          date: "25th August 2025",
+          date: "16th February 2026",
           image:cad,
           description:"CAD MASTERS is a design-centric CAD modelling competition where participants create innovative, sustainable, and practical 3D solutions to real-world problems, with winning designs brought to life through 3D printing.",
           ruleBookLink: "https://drive.google.com/drive/folders/1y-nHi3qeh1ov3XdVH78ZI-fu1lv4HSCY?usp=sharing",
@@ -121,7 +128,7 @@ const toggleFlipRow2 = (index) => {
       {
         
         title: "AI Sprint",
-            date: "25th August 2025",
+            date: "17th February 2026",
             image:sprint,
             description:"A creative AI competition where participants master prompt engineering to control, transform, and reverse-engineer AI-generated visuals through escalating challenges.",
             ruleBookLink: "https://drive.google.com/drive/folders/1ObEiqzqmeQ2phVbfZVFuanFih9JAPR4x?usp=sharing",
@@ -129,7 +136,7 @@ const toggleFlipRow2 = (index) => {
       },
       {
         title: "Escape Room",
-            date: "26th August 2025",
+            date: "10th February 2026",
             image:escape,
             description:"An intense, time-bound escape-room challenge where teams use logic, collaboration, and problem-solving skills to override a locked-down system and escape before time runs out.",
             ruleBookLink: "https://drive.google.com/drive/folders/1MbSsEiTvPOzl2PK4vs0xiJaWDX3e14iR?usp=drive_link",
@@ -137,7 +144,7 @@ const toggleFlipRow2 = (index) => {
       },
       {
         title: "Rube Goldberg",
-            date: "26th August 2025",
+            date: "16th February 2026",
             image:rube,
             description:"The Rube Goldberg Machine Challenge is a hands-on engineering competition where teams build creative, autonomous chain-reaction machines using mechanical energy to complete a final task through teamwork.",
             ruleBookLink: "https://drive.google.com/drive/folders/1ld1O1LR0GgjjuIYdJO_IrjegekIMTAxP?usp=sharing",
@@ -145,12 +152,24 @@ const toggleFlipRow2 = (index) => {
       },
       {
         title: "Brain Battles",
-            date: "26th August 2025",
+            date: "16th February 2026",
             image:brainbat,
             description:"Brain Battles is a high-energy intellectual competition that tests critical thinking, rapid recall, and linguistic precision beyond traditional quizzes.",
             ruleBookLink: "https://drive.google.com/drive/folders/1lpCL9Vb8etxu9u4A94gFxjBe_tAGUaGc?usp=drive_link",
             registerLink: "https://forms.gle/JGDCxkC2uPK4wqy79",
       },
+    ];
+    const events3 = [
+      {
+        
+        title: "Crown for Code",
+            date: "17th February 2026",
+            image:crown,
+            description:"Crown for Code is a multi-round coding competition that challenges problem-solving, logic, and programming skills, culminating in a high-stakes final for top coders.",
+            ruleBookLink: "https://drive.google.com/drive/folders/1Thxl48uOUO1QhYWidgPf8NaRC25snSxn?usp=drive_link",
+            registerLink: "https://forms.gle/f3b9hKGivFmfpTgP9",
+      },
+      
       // {
       //   title: "Brain Battles",
       //       date: "26th August 2025",
@@ -160,7 +179,6 @@ const toggleFlipRow2 = (index) => {
       //       registerLink: "https://forms.gle/JGDCxkC2uPK4wqy79",
       // },
     ];
-
 
   return (
     <>
@@ -285,6 +303,46 @@ const toggleFlipRow2 = (index) => {
           </div>
         ))}
         </div>
+
+        <div className="ffourcardcontainer" data-aos="fade-right">
+        {events3.map((event, index) => (
+          <div
+            key={index}
+            className={`ssmallcard ${flippedIndexesRow3.includes(index) ? "flipped" : ""}`}
+            onClick={() => toggleFlipRow3(index)}
+          >
+            <div className="ccard-inner">
+              <div className="ccard-front">
+                <img src={event.image} loading="lazy" />
+                <h2>{event.title}</h2>
+                <div className="ssmallcardtext">
+                  <p>{event.date}</p>
+                  <a>Know More</a>
+                </div>
+              </div>
+              <div className="ccard-back">
+                <h2>{event.title}</h2>
+                 <p>{event.description}</p>
+                                {event.comingSoon ? (
+                  <>
+                    <a onClick={handleEsummitClick} className="outwhite" role="button">Rule book</a>
+                    <a onClick={handleEsummitClick} className="inwhite" role="button">Register Now</a>
+                  </>
+                ) : (
+                  <>
+                    <a href={event.ruleBookLink} className="outwhite" target="_blank" rel="noopener noreferrer">Rule book</a>
+                    <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">Register Now</a>
+                  </>
+                )}
+
+
+
+              </div>
+            </div>
+          </div>
+        ))}
+        </div>
+
 
       </section>
     </>
