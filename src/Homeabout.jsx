@@ -29,15 +29,15 @@ function Homeabout() {
           <div className="abcont">
             <div className="ableft" data-aos="fade-right">
               <div className="ableftup">
-                <h3>What is E-Summit ?</h3>
+                <h3>What is Konark ?</h3>
                 <p>
-                  E-Summit, the flagship event of GJUS&T Hisar, brings together visionay, entrepreneurs, and innovators to celebrate and cultivate innovation.
+                 Konark’26 is the flagship techno-cultural and innovation fest of GJUST, bringing together students, startups, creators, and industry experts on one platform. The fest celebrates technology, entrepreneurship, creativity, and collaboration through competitions, exhibitions, workshops, and interactive experiences.
                 </p>
               </div>
               <div className="ableftbel">
                 <h3>Our Mission</h3>
                 <p>
-                  We aim to be the ecosystem where we nurture entrepreneurial culture and unite innovators, empowering them to transform ideas into impactful realities.
+                  Our mission is to create a platform that promotes innovation, creativity, and collaboration among students and startups. Konark’26 bridges ideas and execution by offering exposure, learning, and real-world opportunities, empowering young minds to turn vision into impact.
                 </p>
               </div>
             </div>

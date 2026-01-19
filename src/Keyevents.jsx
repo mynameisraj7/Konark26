@@ -1,9 +1,9 @@
 import "./Keyevents.css";
-import startupspotlight from "./assets/startspot.jpeg";
-import startupspace from "./assets/startspace.jpeg";
+import vision from "./assets/g.jpg";
+import idea from "./assets/h.jpg";
 // import keyimage from "./assets/comingsoon.jpeg";
-import auction from "./assets/auction.jpeg";
-import caseclash from "./assets/caseclash.jpeg";
+import hacka from "./assets/i.jpg";
+import cad from "./assets/e.jpg";
 import { useEffect,useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -48,36 +48,36 @@ function Keyevents() {
 
   const events = [
   {
-    title: "Startup Spotlight",
+    title: "Visonthon",
     date: "26th August 2025",
-    image:startupspotlight,
-    description:"A startup pitching competition where students present innovative ideas, pitch like entrepreneurs, and compete for recognition, rewards, and expert feedback at E-Summit ’25.",
-    ruleBookLink: "https://drive.google.com/drive/folders/17-VHfysMSGAW12h3ioUXRk01vzeHPcSb?usp=drive_link",
-    registerLink: "https://unstop.com/p/startup-spotlight-e-summit25-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1523983",
+    image:vision,
+    description:"Visionathon is an innovation-driven competition where participants design impactful, feasible solutions to real-world challenges through creativity, collaboration, and mentorship.",
+    ruleBookLink: "https://drive.google.com/drive/folders/1d-jEhnqwtxxMDg6kD0V_QKjxZhMDkWdC?usp=sharing",
+    registerLink: "https://unstop.com/competitions/visionathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1617986",
   },
   {
-    title: "Startup Space",
+    title: "Ideathon",
     date: "25th August 2025",
-    image:startupspace,
-    description:"Startup Space at E-Summit ’25 invites students to visually showcase their startup ideas, research, or prototypes—transforming bold concepts into stories that inform, impress, and inspire.",
-    ruleBookLink: "https://drive.google.com/drive/folders/1s9zKPV_1rujPAw192zijRREI-ct6qZqg",
-    registerLink: "https://unstop.com/p/startup-space-e-summit25-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1530197",
+    image:idea,
+    description:"IDEATHON is a creative ideation and poster presentation competition where students showcase innovative, impactful solutions to real-world challenges across diverse domains.",
+    ruleBookLink: "https://drive.google.com/drive/folders/1XcPZ-bJInGX6SHtGh6_Ru9Ut3ygajVIO?usp=drive_link",
+    registerLink: "https://unstop.com/p/ideathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar",
   },
   {
-    title: "Startup Auction",
+    title: "Tech Hackathon",
             date: "26th August 2025",
-            image:auction,
-            description:" Startup Auction is where sharp strategy meets entrepreneurial spirit! Bid for startups, acquire expert mentors, and build a winning portfolio — all while competing head-to-head in a high-energy environment! ",
-            ruleBookLink: "https://drive.google.com/drive/folders/12Sy2u64XXu2dFquV5dbsbMTk4gk_4mfR?usp=drive_link",
-            registerLink: "https://lu.ma/ir5o6a7d",
+            image:hacka,
+            description:"SustainTech Hackathon is a software-focused competition where students develop innovative, impactful, and technology-driven digital solutions to real-world sustainability challenges.",
+            ruleBookLink: "https://drive.google.com/drive/folders/1c0lVUXRmt8x_ShDlftGJQPGickgzAEGu?usp=sharing",
+            registerLink: "https://unstop.com/hackathons/sustain-tech-hackathon-konark26-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1617961",
   },
   {
-    title: "Case Clash",
+    title: "CAD Masters",
     date: "25th August 2025",
-    image:caseclash,
-    description:"Case Clash is where analytical minds meet strategic thinking! Tackle case studies from top companies, craft innovative solutions, and present your game-changing strategies to industry experts!",
-    ruleBookLink: "https://drive.google.com/drive/folders/1W6m4dHyoPRm8GXGgR3mOXKUvvH7cmDXX",
-    registerLink: "https://lu.ma/2vfojgem",
+    image:cad,
+    description:"CAD MASTERS is a design-centric CAD modelling competition where participants create innovative, sustainable, and practical 3D solutions to real-world problems, with winning designs brought to life through 3D printing.",
+    ruleBookLink: "https://drive.google.com/drive/folders/1y-nHi3qeh1ov3XdVH78ZI-fu1lv4HSCY?usp=sharing",
+    registerLink: "https://unstop.com/p/cadmasters-konark26-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1623633",
   },
 ];
 

@@ -1,13 +1,14 @@
 import "./Allevents.css"
 // import keyimage from "../assets/comingsoon.jpeg";
-import startupspotlight from "../assets/startspot.jpeg";
-import startupspace from "../assets/startspace.jpeg";
-import caseclash from "../assets/caseclash.jpeg";
-import influencer from "../assets/influencer.jpeg";
-import aman from "../assets/aman.jpeg";
-import yashika from "../assets/yashika.jpeg";
-import braingame from "../assets/braingames.jpeg";
-import auction from "../assets/auction.jpeg";
+import vision from "../assets/g.jpg";
+import idea from "../assets/h.jpg";
+import hacka from "../assets/i.jpg";
+import cad from "../assets/e.jpg";
+import sprint from "../assets/a.jpg";
+import escape from "../assets/b.jpg";
+import rube from "../assets/c.jpg";
+import brainbat from "../assets/d.jpg";
+import crown from "../assets/f.jpg";
 import konarklogo from "../assets/konark.png";
 import { useEffect,useState } from "react";
 import AOS from "aos";
@@ -82,81 +83,81 @@ const toggleFlipRow2 = (index) => {
     
     
       const events = [
-      {
-        title: "Startup Spotlight",
-        date: "26th August 2025",
-        image:startupspotlight,
-            description:"A startup pitching competition where students present innovative ideas, pitch like entrepreneurs, and compete for recognition, rewards, and expert feedback at E-Summit ’25.",
-            ruleBookLink: "https://drive.google.com/drive/folders/17-VHfysMSGAW12h3ioUXRk01vzeHPcSb?usp=drive_link",
-            registerLink: "https://unstop.com/p/startup-spotlight-e-summit25-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1523983",
-      },
-      {
-        title: "Startup Space",
-        date: "25th August 2025",
-         image:startupspace,
-            description:"Startup Space at E-Summit ’25 invites students to visually showcase their startup ideas, research, or prototypes—transforming bold concepts into stories that inform, impress, and inspire.",
-            ruleBookLink: "https://drive.google.com/drive/folders/1s9zKPV_1rujPAw192zijRREI-ct6qZqg",
-            registerLink: "https://unstop.com/p/startup-space-e-summit25-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1530197",
-      },
-      {
-        title: "Startup Auction",
-        date: "26th August 2025",
-        image:auction,
-        description:" Startup Auction is where sharp strategy meets entrepreneurial spirit! Bid for startups, acquire expert mentors, and build a winning portfolio — all while competing head-to-head in a high-energy environment! ",
-        ruleBookLink: "https://drive.google.com/drive/folders/12Sy2u64XXu2dFquV5dbsbMTk4gk_4mfR?usp=drive_link",
-        registerLink: "https://lu.ma/ir5o6a7d",
-      },
-      {
-        title: "Case Clash",
-            date: "25th August 2025",
-            image:caseclash,
-            description:"Case Clash is where analytical minds meet strategic thinking! Tackle case studies from top companies, craft innovative solutions, and present your game-changing strategies to industry experts!",
-            ruleBookLink: "https://drive.google.com/drive/folders/1W6m4dHyoPRm8GXGgR3mOXKUvvH7cmDXX",
-            registerLink: "https://lu.ma/2vfojgem",
-      },
+        {
+          title: "Visonthon",
+          date: "26th August 2025",
+          image:vision,
+          description:"Visionathon is an innovation-driven competition where participants design impactful, feasible solutions to real-world challenges through creativity, collaboration, and mentorship.",
+          ruleBookLink: "https://drive.google.com/drive/folders/1d-jEhnqwtxxMDg6kD0V_QKjxZhMDkWdC?usp=sharing",
+          registerLink: "https://unstop.com/competitions/visionathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1617986",
+        },
+        {
+          title: "Ideathon",
+          date: "25th August 2025",
+          image:idea,
+          description:"IDEATHON is a creative ideation and poster presentation competition where students showcase innovative, impactful solutions to real-world challenges across diverse domains.",
+          ruleBookLink: "https://drive.google.com/drive/folders/1XcPZ-bJInGX6SHtGh6_Ru9Ut3ygajVIO?usp=drive_link",
+          registerLink: "https://unstop.com/p/ideathon-konark-2026-guru-jambheshwar-university-of-science-and-technology-hisar",
+        },
+        {
+          title: "Tech Hackathon",
+                  date: "26th August 2025",
+                  image:hacka,
+                  description:"SustainTech Hackathon is a software-focused competition where students develop innovative, impactful, and technology-driven digital solutions to real-world sustainability challenges.",
+                  ruleBookLink: "https://drive.google.com/drive/folders/1c0lVUXRmt8x_ShDlftGJQPGickgzAEGu?usp=sharing",
+                  registerLink: "https://unstop.com/hackathons/sustain-tech-hackathon-konark26-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1617961",
+        },
+        {
+          title: "CAD Masters",
+          date: "25th August 2025",
+          image:cad,
+          description:"CAD MASTERS is a design-centric CAD modelling competition where participants create innovative, sustainable, and practical 3D solutions to real-world problems, with winning designs brought to life through 3D printing.",
+          ruleBookLink: "https://drive.google.com/drive/folders/1y-nHi3qeh1ov3XdVH78ZI-fu1lv4HSCY?usp=sharing",
+          registerLink: "https://unstop.com/p/cadmasters-konark26-guru-jambheshwar-university-of-science-and-technology-hisar-haryana-1623633",
+        },
     ];
 
     const events2 = [
       {
         
-        title: "Business Quiz",
+        title: "AI Sprint",
             date: "25th August 2025",
-            image:braingame,
-            description:"Put your business smarts to the test at the second edition of the Business Quiz at E-Summit 2025. Challenge yourself with two dynamic offline rounds covering startups, marketing, finance, and more.",
-            ruleBookLink: "https://drive.google.com/drive/folders/1UAcrhGRwqaoyJCGYze8hZJj4sDgUqKN0",
-            registerLink: "https://lu.ma/kpdbgsh7",
+            image:sprint,
+            description:"A creative AI competition where participants master prompt engineering to control, transform, and reverse-engineer AI-generated visuals through escalating challenges.",
+            ruleBookLink: "https://drive.google.com/drive/folders/1ObEiqzqmeQ2phVbfZVFuanFih9JAPR4x?usp=sharing",
+            registerLink: "https://forms.gle/QQGB2fFjbMvxjxUd8",
       },
       {
-        title: "Influencer's Lab",
+        title: "Escape Room",
             date: "26th August 2025",
-            image:influencer,
-            description:"🎥 Light. Camera. Influence.Got 60 seconds to own your niche? ✨ Show off your creativity, storytelling, and influencer skills in the ultimate reel-making challenge! ",
-            ruleBookLink: "https://drive.google.com/drive/folders/19aiGtNHhJIM5bWdGVzjOFUzkr9NLQt_d?usp=drive_link",
-            registerLink: "https://lu.ma/3sd5fn68",
+            image:escape,
+            description:"An intense, time-bound escape-room challenge where teams use logic, collaboration, and problem-solving skills to override a locked-down system and escape before time runs out.",
+            ruleBookLink: "https://drive.google.com/drive/folders/1MbSsEiTvPOzl2PK4vs0xiJaWDX3e14iR?usp=drive_link",
+            registerLink: "https://forms.gle/XzhXtv3o86Sboihi9",
       },
       {
-        title: "Session",
+        title: "Rube Goldberg",
             date: "26th August 2025",
-            image:aman,
-            description:"We are thrilled to host Mr. Aman Rajput, Community Manager at Unstop, for an insightful session on “Acceleration/Incubation – Opportunities for Students & Faculties Early-Stage Entrepreneurs”.",
-            ruleBookLink: "",
-            registerLink: "https://lu.ma/zjhkuopy",
+            image:rube,
+            description:"The Rube Goldberg Machine Challenge is a hands-on engineering competition where teams build creative, autonomous chain-reaction machines using mechanical energy to complete a final task through teamwork.",
+            ruleBookLink: "https://drive.google.com/drive/folders/1ld1O1LR0GgjjuIYdJO_IrjegekIMTAxP?usp=sharing",
+            registerLink: "https://forms.gle/5c9y5tb5g4zcaLd47",
       },
       {
-        title: "Session",
+        title: "Brain Battles",
             date: "26th August 2025",
-            image:yashika,
-            description:"We are thrilled to host Ms. Yashika, Founder of YR IT Solutions, for an interactive session on “Innovation and Start-up Ecosystem Enablers.”",
-            ruleBookLink: "",
-            registerLink: "https://lu.ma/sicr5z51",
+            image:brainbat,
+            description:"Brain Battles is a high-energy intellectual competition that tests critical thinking, rapid recall, and linguistic precision beyond traditional quizzes.",
+            ruleBookLink: "https://drive.google.com/drive/folders/1lpCL9Vb8etxu9u4A94gFxjBe_tAGUaGc?usp=drive_link",
+            registerLink: "https://forms.gle/JGDCxkC2uPK4wqy79",
       },
       // {
-      //   title: "Valid Event",
-      //   date: "25th August 2025",
-      //   image:keyimage,
-      //   ruleBookLink: "https://example.com/rulebook4.pdf",
-      //   registerLink: "https://lu.ma/event/evt-Ghi789",
-      //   comingSoon: true
+      //   title: "Brain Battles",
+      //       date: "26th August 2025",
+      //       image:crown,
+      //       description:"Brain Battles is a high-energy intellectual competition that tests critical thinking, rapid recall, and linguistic precision beyond traditional quizzes.",
+      //       ruleBookLink: "https://drive.google.com/drive/folders/1lpCL9Vb8etxu9u4A94gFxjBe_tAGUaGc?usp=drive_link",
+      //       registerLink: "https://forms.gle/JGDCxkC2uPK4wqy79",
       // },
     ];
 

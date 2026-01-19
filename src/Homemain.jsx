@@ -107,7 +107,7 @@ function Homemain() {
         </div>
 
         <p>
-          Haryana’s Biggest Entrepreneurship Summit is here — Turn Your Vision into Exceptional <span>Performance!</span>
+          GJUST’s Flagship Techno-Cultural & Innovation Fest Where ideas turn into <span>Experiences.</span>
         </p>
         <h2>16th - 18th Feburary 2026</h2>
         <button onClick={openGoogleCalendar}>Save the Date</button>
