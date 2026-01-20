@@ -65,7 +65,7 @@ function Homeabout() {
               <p>Footfall last year</p>
             </div>
             <div className="abox">
-              <h2>8</h2>
+              <h2>10+</h2>
               <p>Events</p>
             </div>
             <div className="abox">
