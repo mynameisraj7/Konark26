@@ -57,11 +57,11 @@ function Homeabout() {
 
           <div className="ablower" data-aos="fade-left">
             <div className="abox">
-              <h2>200K+</h2>
+              <h2>400K+</h2>
               <p>Social Media Impressions</p>
             </div>
             <div className="abox">
-              <h2>3K+</h2>
+              <h2>7K+</h2>
               <p>Footfall last year</p>
             </div>
             <div className="abox">
@@ -69,7 +69,7 @@ function Homeabout() {
               <p>Events</p>
             </div>
             <div className="abox">
-              <h2>20+</h2>
+              <h2>25+</h2>
               <p>Startups</p>
             </div>
           </div>

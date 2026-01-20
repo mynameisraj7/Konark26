@@ -174,7 +174,7 @@ const toggleFlipRow3 = (index) => {
         title: "THE EXPO ZONE",
             date: "16th Feb 2026",
             image:zone,
-            description:"Konark’26 Startup Showcase cum Exhibition provides a platform for student innovators and startups to exhibit their ideas, connect with a wider audience, and foster innovation through networking and collaboration.",
+            description:"Konark’26 Startup Showcase cum Exhibition provides a platform for student innovators and startups to exhibit their ideas, connect with a wider audience, and foster innovation through networking.",
             ruleBookLink: "",
             registerLink: "https://forms.gle/7L5yWRfzdFUgomsw9",
       },

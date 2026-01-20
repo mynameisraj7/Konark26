@@ -80,7 +80,8 @@ function Homemain() {
               <ul id="navbar">
                 <li><a href="#home" onClick={(e) => {handleScrollLink(e, "home");setNavOpen(false);}}>Home</a></li>
                 <li><a href="#about" onClick={(e) => {handleScrollLink(e, "about");setNavOpen(false);}}>About</a></li>
-                <li><a href="#events" onClick={(e) => {handleScrollLink(e, "events");setNavOpen(false);}}>Events</a></li>
+                <li><Link to="/more-events" className="morecards">Events</Link></li>
+                {/* <li><a href="#events" onClick={(e) => {handleScrollLink(e, "events");setNavOpen(false);}}>Events</a></li> */}
                 <li><a href="#gallery" onClick={(e) => {handleScrollLink(e, "gallery");setNavOpen(false);}}>Gallery</a></li>
                 <li><a href="#contact" onClick={(e) => {handleScrollLink(e, "contact");setNavOpen(false);}}>Contact us</a></li>
                 <li><a href="#faq" onClick={(e) => {handleScrollLink(e, "faq");setNavOpen(false);}}>FAQs</a></li>
