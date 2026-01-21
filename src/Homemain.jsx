@@ -72,7 +72,7 @@ function Homemain() {
                 <li><a href="#gallery" onClick={(e) => handleScrollLink(e, "gallery")}>Gallery</a></li>
                 <li><a href="#contact" onClick={(e) => handleScrollLink(e, "contact")}>Contact us</a></li>
                 <li><a href="#faq" onClick={(e) => handleScrollLink(e, "faq")}>FAQs</a></li>
-                <li><a href="https://forms.gle/XUtgD2DS21iNYeDR9">Querey</a></li>
+                <li><a href="https://forms.gle/XUtgD2DS21iNYeDR9">Query</a></li>
               </ul>
             </div>
 
@@ -87,7 +87,7 @@ function Homemain() {
                 <li><a href="#gallery" onClick={(e) => {handleScrollLink(e, "gallery");setNavOpen(false);}}>Gallery</a></li>
                 <li><a href="#contact" onClick={(e) => {handleScrollLink(e, "contact");setNavOpen(false);}}>Contact us</a></li>
                 <li><a href="#faq" onClick={(e) => {handleScrollLink(e, "faq");setNavOpen(false);}}>FAQs</a></li>
-                <li><a href="https://forms.gle/XUtgD2DS21iNYeDR9">Querey</a></li>
+                <li><a href="https://forms.gle/XUtgD2DS21iNYeDR9">Query</a></li>
               </ul>
             </div>
             </div>
@@ -115,7 +115,7 @@ function Homemain() {
         <p>
           GJUST’s Flagship Techno-Cultural & Innovation Fest Where ideas turn into <span>Experiences.</span>
         </p>
-        <h2>16th - 18th Feburary 2026</h2>
+        <h2>16th - 18th February 2026</h2>
         <button onClick={openGoogleCalendar}>Save the Date</button>
 
         <div className="ssocials">
