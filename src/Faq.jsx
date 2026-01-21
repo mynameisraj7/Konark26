@@ -60,6 +60,30 @@ function Faq() {
       question: "What do participants and winners receive?",
       answer: "All participants will receive certificates of participation. Winners and top performers will receive certificates, prizes, recognition, and awards as per event guidelines."
     },
+    {
+      question: "Is accommodation available for outstation/offline participants?",
+      answer: "Yes. Accommodation will be provided to offline/outstation participants at a nominal charge, subject to availability. Details regarding accommodation and allotment will be shared after registration."
+    },
+    {
+      question: "How can I contact the organizing team for queries or support?",
+      answer: (
+    <>
+      For all official communication, queries, and support related to Konark’26,
+      participants can contact us through the official contact only :
+      <br />
+      <strong>Official Contact Number:</strong> 94679 05906
+      <br />
+      <strong>Query Form:</strong>{" "}
+      <a
+        href="https://forms.gle/XUtgD2DS21iNYeDR9"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://forms.gle/XUtgD2DS21iNYeDR9
+      </a>
+    </>
+  )
+    },
   ];
 
   return (
