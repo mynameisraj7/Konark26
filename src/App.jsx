@@ -6,6 +6,7 @@ import Keyevents from './Keyevents';
 import Glimpse from './Glimpse';
 import Sponserscroll from './Sponserscroll';
 import Homeconnect from './Homeconnect';
+import Kgallery from './Kgallery';
 import Faq from './Faq';
 import Homefooter from './Homefooter';
 import Moreevents from './pages/Moreevents';
@@ -37,7 +38,8 @@ function App() {
             <Homemain />
             <Homeabout />
             <Keyevents />
-            <Glimpse />
+            {/* <Glimpse /> */}
+            <Kgallery/>
             <Sponserscroll />
             <Homeconnect />
             <Faq />

@@ -55,7 +55,7 @@ function Homeabout() {
             </div>
           </div>
 
-          <div className="ablower" data-aos="fade-left">
+          {/* <div className="ablower" data-aos="fade-left">
             <div className="abox">
               <h2>400K+</h2>
               <p>Social Media Impressions</p>
@@ -72,7 +72,7 @@ function Homeabout() {
               <h2>25+</h2>
               <p>Startups</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

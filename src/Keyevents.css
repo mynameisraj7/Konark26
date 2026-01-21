@@ -78,11 +78,7 @@
   justify-content: flex-start;
    border: 1px solid #00F7FF;
   padding: 8px 8px 16px 8px;
-}
-
-/* ==== Front Face ==== */
-.card-front {
-  background: #100412;
+    background: var(--Cards-BG, linear-gradient(180deg, #022E66 0%, #001E21 100%), #FFF);
 }
 
 .card-front img {
@@ -146,7 +142,6 @@
 /* ==== Back Face ==== */
 .card-back {
   transform: rotateY(180deg);
-  background: var(--Cards-BG, linear-gradient(180deg, #022E66 0%, #001E21 100%), #FFF);
 }
 
 .card-back h2 {
