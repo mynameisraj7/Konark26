@@ -17,7 +17,7 @@ function Homemain() {
   const openGoogleCalendar = () => {
   const start = "20260216";
   const end = "20260219";
-  const title = encodeURIComponent("Konark 2026");
+  const title = encodeURIComponent("Konark'26");
   const details = encodeURIComponent("Haryana’s biggest Tech Fest, hosted by iConnect at GJUS&T Hisar.");
   const location = encodeURIComponent("GJUS&T, Hisar, Haryana");
   

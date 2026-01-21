@@ -73,7 +73,7 @@ function Homefooter() {
             </div>
             <div className="divider"></div>
             <div className="footbottom">
-              <div>Build️ with ❤️ by Team iConnect</div>
+              <div>Built with ❤️ by Team iConnect</div>
               <div>© Team iConnect, PDUIIC, GJUS&T, Hisar. All Rights Reserved</div>
             </div>
           </div>
