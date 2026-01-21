@@ -6,6 +6,10 @@ import logo4 from "./assets/glim4.jpeg";
 import logo5 from "./assets/glim5.jpeg";
 import logo6 from "./assets/glim6.jpeg";
 import logo7 from "./assets/glim7.jpeg";
+import logo8 from "./assets/glim8.jpeg";
+import logo9 from "./assets/glim9.jpeg";
+import logo10 from "./assets/glim10.jpeg";
+import logo11 from "./assets/glim11.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Mansory from './Mansory';
@@ -19,10 +23,10 @@ const items = [
   { id: "5", img: logo5, url: "#", height: 350 },
   { id: "6", img: logo6, url: "#", height: 310 },
   { id: "7", img: logo7, url: "#", height: 550 },
-  { id: "8", img: logo2, url: "#", height: 680 },
-  { id: "9", img: logo7, url: "#", height: 630 },
-  { id: "10", img: logo3, url: "#", height:570 },
-  { id: "11", img: logo4, url: "#", height: 330 },
+  { id: "8", img: logo8, url: "#", height: 680 },
+  { id: "9", img: logo9, url: "#", height: 630 },
+  { id: "10", img: logo10, url: "#", height:570 },
+  { id: "11", img: logo11, url: "#", height: 330 },
 ];
 
  const scrollItems = [...items, ...items];

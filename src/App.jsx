@@ -39,8 +39,8 @@ function App() {
             <Homeabout />
             <Keyevents />
             {/* <Glimpse /> */}
-            <Kgallery/>
             <Sponserscroll />
+            <Kgallery/>          
             <Homeconnect />
             <Faq />
             <Homefooter />

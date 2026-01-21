@@ -97,7 +97,7 @@ function Homeconnect() {
       name="name"
       value={formData.name}
       onChange={handleChange}
-      placeholder="Aditya Thakur"
+      placeholder="Name"
       required
     />
   </div>
@@ -121,7 +121,7 @@ function Homeconnect() {
       name="subject"
       value={formData.subject}
       onChange={handleChange}
-      placeholder="Ideathon"
+      placeholder="Event Name"
       required
     />
   </div>
