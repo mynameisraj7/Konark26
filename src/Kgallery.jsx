@@ -10,7 +10,6 @@ import logo8 from "./assets/glim8.jpeg";
 import logo9 from "./assets/glim9.jpeg";
 import logo10 from "./assets/glim10.jpeg";
 import logo11 from "./assets/glim11.jpeg";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import Mansory from './Mansory';
 
