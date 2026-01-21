@@ -1,8 +1,9 @@
 import "./Homemain.css";
 import iconnectlogo from "./assets/iconnectlog.svg";
 import konarklogo from "./assets/konark.png";
-import mainlogomobile from "./assets/mainlogomobile.gif";
-import whitelogo from "./assets/whitelogo.gif";
+// import mainlogomobile from "./assets/mainlogomobile.gif";
+// import whitelogo from "./assets/whitelogo.gif";
+import desklogo from "./assets/konark4.png";
 import { useState, useEffect } from "react";
 import { Link, useLocation } from 'react-router-dom';
 
@@ -71,6 +72,7 @@ function Homemain() {
                 <li><a href="#gallery" onClick={(e) => handleScrollLink(e, "gallery")}>Gallery</a></li>
                 <li><a href="#contact" onClick={(e) => handleScrollLink(e, "contact")}>Contact us</a></li>
                 <li><a href="#faq" onClick={(e) => handleScrollLink(e, "faq")}>FAQs</a></li>
+                <li><a href="https://forms.gle/XUtgD2DS21iNYeDR9">Querey</a></li>
               </ul>
             </div>
 
@@ -85,6 +87,7 @@ function Homemain() {
                 <li><a href="#gallery" onClick={(e) => {handleScrollLink(e, "gallery");setNavOpen(false);}}>Gallery</a></li>
                 <li><a href="#contact" onClick={(e) => {handleScrollLink(e, "contact");setNavOpen(false);}}>Contact us</a></li>
                 <li><a href="#faq" onClick={(e) => {handleScrollLink(e, "faq");setNavOpen(false);}}>FAQs</a></li>
+                <li><a href="https://forms.gle/XUtgD2DS21iNYeDR9">Querey</a></li>
               </ul>
             </div>
             </div>
@@ -99,13 +102,15 @@ function Homemain() {
         <img className="centericon" src={iconnectlogo} alt="footer image" />
         <h4>Presents</h4>
 
-        <div className="mainlogocrop">
+        {/* <div className="mainlogocrop">
           <img className="mainlogo" src={`${whitelogo}?t=${logoTimestamp}`} alt="main gif" />
         </div>
 
         <div className="mainlogomobilecrop">
           <img className="mainlogomobile" src={`${mainlogomobile}?t=${logoTimestamp}`} alt="mobile gif" />
-        </div>
+        </div> */}
+
+          <img className="mainplogo" src={`${desklogo}?t=${logoTimestamp}`} alt="main gif" />
 
         <p>
           GJUST’s Flagship Techno-Cultural & Innovation Fest Where ideas turn into <span>Experiences.</span>
