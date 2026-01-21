@@ -66,7 +66,7 @@ function Homefooter() {
                 </div>
                 </div>
                 <div className="context">
-                  Team iConnect under PDUIIC is conducting the fest and is dedicated to help you with your querys . 
+                  Team iConnect under PDUIIC is conducting the fest and is dedicated to help you with your queries . 
                 </div>
               </div>
             </div>
