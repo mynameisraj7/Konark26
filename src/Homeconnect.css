@@ -225,6 +225,11 @@ line-height: 125%; /* 30px */
   -webkit-tap-highlight-color: transparent;
 }
 
+.konark-toast { position: fixed; top: 127px; right: -300px; background-color: #111; color: #fff; padding: 10px 20px; border-radius: 10px; font-size: 1rem; z-index: 10000; animation: slideInOut 2s ease-in-out forwards; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); }
+
+@keyframes slideInOut { 0% { right: -300px; opacity: 0; } 20% { right: 20px; opacity: 1; } 80% { right: 20px; opacity: 1; } 100% { right: -300px; opacity: 0; } }
+
+
 @media (max-width: 920px){
     .concontainer {
     width: 90%;
@@ -257,6 +262,13 @@ line-height: 125%; /* 30px */
   .reachmap {
     height: 340px;
   }
+}
+
+@media (max-width: 576px) {
+
+  .konark-toast { width: 70%; text-align: center; top: auto; bottom: -100px; right: 50%; transform: translateX(50%); animation: slideUpOut 2.5s ease-in-out forwards; }
+   @keyframes slideUpOut { 0% { bottom: -100px; opacity: 0; } 20% { bottom: 40px; opacity: 1; } 80% { bottom: 40px; opacity: 1; } 100% { bottom: -100px; opacity: 0; } }
+
 }
 
 /* Very small devices (<= 480px) */
