@@ -50,19 +50,21 @@ function Homeconnect() {
 
     // Show toast
     setShowToast(true);
-    setTimeout(() => setShowToast(false), 2500);
-} else {
-    setStatus("Failed to send message. Please try again.");
-}
-
-        
+      } else {
+        setStatus("Failed to send message. Please try again.");
+      }
     } catch (error) {
-        console.error('Error:', error);
-        setStatus("Something went wrong. Try again later.");
+      console.error("Error:", error);
+      setStatus("Something went wrong. Try again later.");
     }
 };
 
-
+  useEffect(() => {
+    if (showToast) {
+      const timer = setTimeout(() => setShowToast(false), 2500);
+      return () => clearTimeout(timer);
+    }
+  }, [showToast]);
 
 
 
