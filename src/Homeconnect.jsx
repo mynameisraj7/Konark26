@@ -50,21 +50,19 @@ function Homeconnect() {
 
     // Show toast
     setShowToast(true);
-      } else {
-        setStatus("Failed to send message. Please try again.");
-      }
+    setTimeout(() => setShowToast(false), 2500);
+} else {
+    setStatus("Failed to send message. Please try again.");
+}
+
+        
     } catch (error) {
-      console.error("Error:", error);
-      setStatus("Something went wrong. Try again later.");
+        console.error('Error:', error);
+        setStatus("Something went wrong. Try again later.");
     }
 };
 
-  useEffect(() => {
-    if (showToast) {
-      const timer = setTimeout(() => setShowToast(false), 2500);
-      return () => clearTimeout(timer);
-    }
-  }, [showToast]);
+
 
 
 
@@ -80,7 +78,7 @@ function Homeconnect() {
   return (
     <>
 
-    {showToast && <div key={Date.now()} className="konark-toast">✅ Submitted your request</div>}
+    {showToast && <div className="konark-toast">✅ Submitted your request</div>}
 
 
     <section id="contact" className="conback">
