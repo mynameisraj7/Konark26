@@ -44,7 +44,7 @@ function Glimpse() {
   return (
     <section id="gallery" className="glimpseback">
       <div className="glimtitle" data-aos="fade-down">
-        <h2>Glimpses of E-Summit ‘25</h2>
+        <h2>Past Events</h2>
         <div className="glimline"></div>
       </div>
       <div className="lowball" data-aos="fade-right">
