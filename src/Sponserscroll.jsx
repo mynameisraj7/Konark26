@@ -1,6 +1,6 @@
 import "./Sponserscroll.css";
 import logo1 from "./assets/pizaa.png";
-import logo2 from "./assets/jj2.png";
+import logo2 from "./assets/JJ2.png";
 import logo3 from "./assets/sponser3.jpg";
 import logo4 from "./assets/sponser4.png";
 import { useEffect } from "react";
@@ -24,7 +24,7 @@ function Sponserscroll() {
   return (
     <section className="sponserimg">
       <div className="sponsertitle" data-aos="fade-left">
-        <h2>Oursssssssss Sponsors</h2>
+        <h2>Our Sponsors</h2>
         <div className="sponserline" data-aos="fade-right" ></div>
 
         <div className="carousel-wrapper" data-aos="zoom-in" >
