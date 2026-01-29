@@ -3,14 +3,12 @@ import logo1 from "./assets/pizaa.png";
 import logo2 from "./assets/jj2.png";
 import logo3 from "./assets/sponser3.jpg";
 import logo4 from "./assets/sponser4.png";
-import logo5 from "./assets/sponser5.jpg";
-import logo6 from "./assets/sponser6.png";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 
-const sponsorLogos = [logo1, logo2, logo3, logo4, logo5, logo6];
+const sponsorLogos = [logo1, logo2, logo3, logo4];
 
 function Sponserscroll() {
 
