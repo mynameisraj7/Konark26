@@ -24,7 +24,7 @@ function Sponserscroll() {
   return (
     <section className="sponserimg">
       <div className="sponsertitle" data-aos="fade-left">
-        <h2>Our Sponsors</h2>
+        <h2>Oursssssssss Sponsors</h2>
         <div className="sponserline" data-aos="fade-right" ></div>
 
         <div className="carousel-wrapper" data-aos="zoom-in" >
