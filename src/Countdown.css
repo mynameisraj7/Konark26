@@ -4,17 +4,16 @@
   right: -1px; /* keep it INSIDE screen */
   color: #fff;
   padding: 10px 15px 10px 32px;
-    width: 220px;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-border: 0.5px solid var(--konark-Gradient, #00F7FF);
-background: var(--Colorcrd2, #001752);
+  width: 220px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border: 0.5px solid var(--konark-Gradient, #00F7FF);
+  background: var(--Colorcrd2, #001752);
   font-size: 1rem;
   z-index: 10000;
   transform: translateX(120%);
   opacity: 0;
   animation: slideInn 1.2s ease-out 1s forwards;
-
 }
 
 /* Slide from outside */
@@ -61,4 +60,79 @@ background: var(--Colorcrd2, #001752);
 
 .closebtn:hover {
   color: white;
+}
+
+@media (max-width: 992px) {
+  .countdown {
+    width: 185px;
+    padding-right: 10px;
+    top: 213px;
+  }
+  .closebtn {
+    right: 160px;
+  }
+  .time-boxes span {
+    font-size: 21px;
+  }
+  .time-boxes div {
+    font-size: 11px;
+  }
+}
+@media(max-width:778px){
+  .countdown {
+    width: 160px;
+    padding-left: 25px;
+  }
+  .closebtn {
+    right: 137px;
+  }
+  .time-boxes span {
+    font-size: 18px;
+  }
+  .time-boxes div {
+    font-size: 11px;
+  }
+  .closebtn {
+    font-size: 18px;
+  }
+}
+@media(max-width:600px){
+.countdown {
+    width: 120px;
+    padding: 5px 5px 5px 17px;
+    top: 217px;
+  }
+  .closebtn {
+    right: 102px;
+  }
+  .time-boxes span {
+    font-size: 14px;
+  }
+  .time-boxes div {
+    font-size: 10px;
+  }
+  .closebtn {
+    top: 3px;
+    font-size: 12px;
+  }
+}
+@media(max-width:440px){
+  .countdown {
+    width: 110px;
+    padding: 5px 3px 5px 15px;
+    top: 139px;
+  }
+  .closebtn {
+    right: 93px;
+  }
+  .time-boxes span {
+    font-size: 14px;
+  }
+  .time-boxes div {
+    font-size: 10px;
+  }
+  .closebtn {
+    top: 3px;
+    font-size: 12px;
+  }
 }
