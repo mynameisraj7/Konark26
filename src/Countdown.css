@@ -1,0 +1,64 @@
+.countdown {
+  position: fixed;
+  top: 206px;
+  right: -1px; /* keep it INSIDE screen */
+  color: #fff;
+  padding: 10px 15px 10px 32px;
+    width: 220px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+border: 0.5px solid var(--konark-Gradient, #00F7FF);
+background: var(--Colorcrd2, #001752);
+  font-size: 1rem;
+  z-index: 10000;
+  transform: translateX(120%);
+  opacity: 0;
+  animation: slideInn 1.2s ease-out 1s forwards;
+
+}
+
+/* Slide from outside */
+@keyframes slideInn {
+  from { transform: translateX(120%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+
+.time-boxes {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.time-boxes div {
+  font-size: 12px;
+}
+
+.time-boxes span {
+  display: block;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  background: var(--konark-Gradient, linear-gradient(144deg, #00F7FF 12.5%, #009FE8 86%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.closebtn {
+  position: absolute;
+  top: 6px;
+  right: 194px;
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: white;
+}

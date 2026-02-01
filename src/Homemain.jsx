@@ -6,6 +6,8 @@ import konarklogo from "./assets/konark.png";
 import desklogo from "./assets/konark4.png";
 import { useState, useEffect } from "react";
 import { Link, useLocation } from 'react-router-dom';
+import Countdown from "./Countdown";
+
 
 function Homemain() {
   const [navOpen, setNavOpen] = useState(false);
@@ -51,6 +53,7 @@ function Homemain() {
 
   return (
     <>
+    <Countdown />
       <section className="heroback">
         <div className="header">
           <div className="glasscontainer">
@@ -62,6 +65,7 @@ function Homemain() {
               <i className='bx bx-menu'></i>
             </div>
             </div>
+            
 
             <div className="navlinks desktop-nav">
               <ul id="navbar">
