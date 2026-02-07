@@ -1,7 +1,7 @@
 import "./Sponserscroll.css";
 import logo1 from "./assets/pizaa.png";
 import logo2 from "./assets/bnoi.png";
-import logo3 from "./assets/pnb.png";
+import logo3 from "./assets/pnbblogo1.png";
 import jj2 from "./assets/JJ2.png";
 import logo5 from "./assets/3dx.png";
 import logo4 from "./assets/globalpaints.png";

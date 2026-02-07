@@ -12,6 +12,7 @@ import crown from "../assets/f.jpg";
 import zone from "../assets/zone.jpg";
 import survivors from "../assets/survivors.jpeg";
 import konarklogo from "../assets/konark.png";
+import coming from "../assets/comingsoonk.jpeg";
 import { useEffect,useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -190,7 +191,7 @@ const toggleFlipRow3 = (index) => {
       {
         title: "Coming Soon",
             date: "Date....",
-            image:survivors,
+            image:coming,
             description:"",
             ruleBookLink: "",
             registerLink: "",
