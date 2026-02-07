@@ -180,8 +180,8 @@ const toggleFlipRow3 = (index) => {
             registerLink: "https://forms.gle/7L5yWRfzdFUgomsw9",
       },
       {
-        title: "Survivors Arena",
-            date: "8th Feb 2026",
+        title: "SURVIVORS ARENA",
+            date: "08th Feb 2026",
             image:survivors,
             description:"Survivors Arena – Fight Your Fate in BGMI is a competitive BGMI tournament testing players’ strategy, teamwork, and survival skills. Matches are held in private Erangel (Sunny) rooms for a fair, controlled battleground.",
             ruleBookLink: "https://drive.google.com/drive/folders/1qvKP0Gp7gvm_k2_Gcmv9myynOlAMo3tu?usp=sharing",
