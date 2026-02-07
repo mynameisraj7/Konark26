@@ -10,6 +10,7 @@ import rube from "../assets/c.jpg";
 import brainbat from "../assets/d.jpg";
 import crown from "../assets/f.jpg";
 import zone from "../assets/zone.jpg";
+import survivors from "../assets/survivors.jpeg";
 import konarklogo from "../assets/konark.png";
 import { useEffect,useState } from "react";
 import AOS from "aos";
@@ -178,6 +179,22 @@ const toggleFlipRow3 = (index) => {
             ruleBookLink: "",
             registerLink: "https://forms.gle/7L5yWRfzdFUgomsw9",
       },
+      {
+        title: "Survivors Arena",
+            date: "8th Feb 2026",
+            image:survivors,
+            description:"Survivors Arena – Fight Your Fate in BGMI is a competitive BGMI tournament testing players’ strategy, teamwork, and survival skills. Matches are held in private Erangel (Sunny) rooms for a fair, controlled battleground.",
+            ruleBookLink: "https://drive.google.com/drive/folders/1qvKP0Gp7gvm_k2_Gcmv9myynOlAMo3tu?usp=sharing",
+            registerLink: "https://forms.gle/5mWXzez3V9PK9dyD8",
+      },
+      {
+        title: "Coming Soon",
+            date: "Date....",
+            image:survivors,
+            description:"",
+            ruleBookLink: "",
+            registerLink: "",
+      },
     ];
 
   return (
@@ -336,9 +353,6 @@ const toggleFlipRow3 = (index) => {
                     <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">Register Now</a>
                   </>
                 )}
-
-
-
               </div>
             </div>
           </div>
