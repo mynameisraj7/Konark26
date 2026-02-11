@@ -23,9 +23,16 @@ function Homefooter() {
             </div>
             <div className="address">
                 <h2>Address</h2>
-                <p>Ground Floor, PDUIIC,<br/>
-                    GJUS&T, Hisar,<br/>
-                    Haryana - 125001</p>
+                <a
+    href="https://www.google.com/maps/search/?api=1&query=Pt.+Deendayal+Upadhyaya+Computer+%26+Informatics+Centre+GJUS%26T+Hisar+Haryana+125001"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="address-link"
+  >
+    Pt. Deendayal Upadhyaya Computer & Informatics Centre (PDUCIC),<br/>
+    GJUS&T, Hisar,<br/>
+    Haryana - 125001
+  </a>
             </div>
             <div className="footright">
               <div className="footcontact">
@@ -56,12 +63,12 @@ function Homefooter() {
                    <h3>For other queries</h3>
                   <div className="phonecont">
                      <i class='bx bx-phone'></i>
-                     <p>+91 9467905906</p>
+                     <a href="tel:+919467905906" className="phone-link">+91 9467905906</a>
                   </div>
                 <h3>You can also mail us at</h3> 
                  <div className="phonecont">
                      <i class='bx bx-envelope' ></i>
-                     <p>iconnectgjust@gmail.com</p>
+                     <a href="mailto:iconnectgjust@gmail.com" className="email-link">iconnectgjust@gmail.com</a>
                   </div>
                 </div>
                 </div>

@@ -5,6 +5,7 @@ import logo3 from "./assets/pnbblogo1.png";
 import jj2 from "./assets/JJ2.png";
 import logo5 from "./assets/3dx.png";
 import logo4 from "./assets/globalpaints.png";
+import logo6 from "./assets/unnamed.png";
 import organ5 from "./assets/aictelogo.png";
 import organ1 from "./assets/gjustt.png";
 import organ4 from "./assets/ideaphoto.png";
@@ -16,7 +17,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 
-const sponsorLogos = [logo1, logo2, logo3, logo4,logo5];
+const sponsorLogos = [logo1, logo2, logo3, logo4,logo5, logo6];
 const organiseLogos = [organ1, organ2, organ3, organ4,organ5, organ6];
 
 function Sponserscroll() {

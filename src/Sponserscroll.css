@@ -134,11 +134,12 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-.carousel-item:nth-child(5n+1) img { height: clamp(38.759px, 7vw, 88px); }
-.carousel-item:nth-child(5n+2) img { height: clamp(58.526px, 8vw, 133px); }
-.carousel-item:nth-child(5n+3) img { height: clamp(43.252px, 6vw, 98px); }
-.carousel-item:nth-child(5n+4) img { height: clamp(54px, 7vw, 102px); }
-.carousel-item:nth-child(5n+5) img { height: clamp(38.759px, 8vw, 88px); }
+.carousel-item:nth-child(6n+1) img { height: clamp(38.759px, 7vw, 88px); }
+.carousel-item:nth-child(6n+2) img { height: clamp(58.526px, 8vw, 133px); }
+.carousel-item:nth-child(6n+3) img { height: clamp(43.252px, 6vw, 98px); }
+.carousel-item:nth-child(6n+4) img { height: clamp(54px, 7vw, 102px); }
+.carousel-item:nth-child(6n+5) img { height: clamp(38.759px, 8vw, 88px); }
+.carousel-item:nth-child(6n+6) img { height: clamp(38.759px, 8vw, 88px); }
 
 .carousel-item img {
   width: auto;

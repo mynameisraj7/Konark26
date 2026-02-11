@@ -37,8 +37,8 @@ function App() {
             <Homemain />
             <Homeabout />
             <Keyevents />
-            <Glimpse />
             <Sponserscroll />
+            <Glimpse />
             <Homeconnect />
             <Faq />
             <Homefooter />

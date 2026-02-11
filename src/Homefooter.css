@@ -71,11 +71,12 @@ line-height: 150%; /* 24px */
     margin-top: 45px;
     font-family: "Overpass";
 }
-.address p{
+.address a{
     color: var(--Neutrals-Black-500, #CCC);
 font-size: 16px;
 font-family: "Proximasans";
 font-style: normal;
+text-decoration: none;
 font-weight: 500;
 line-height: 150%; /* 24px */
 }
@@ -109,7 +110,7 @@ line-height: 150%; /* 24px */
     color: var(--Neutrals-Black-500, #CCC);
 }
 
-.phonecont p{
+.phonecont a{
     margin: 0;
     color: var(--Neutrals-Black-500, #CCC);
 font-size: 15px;
@@ -117,6 +118,7 @@ font-style: normal;
 font-family: "Overpass";
 font-weight: 500;
 line-height: 1; 
+text-decoration: none;
 user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -265,14 +267,14 @@ line-height: 125%; /* 20px */
     .phonecont i{
         font-size: 0.9rem;
     }
-    .phonecont p{
+    .phonecont a{
         font-size: 14px;
         font-weight: 400;
     }
     .address h2{
         font-size: 1.5rem;
     }
-    .address p{
+    .address a{
         font-size: 1rem;
     }
 }
