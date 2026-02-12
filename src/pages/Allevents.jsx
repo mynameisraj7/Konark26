@@ -214,7 +214,7 @@ const toggleFlipRow4 = (index) => {
             description:"✨Session Highlights include exploring sustainable startup pathways, identifying emerging opportunities, and building future-ready businesses.",
             btn1:"Venue",
             btn2:"Join Us",
-            ruleBookLink: "https://www.google.com/maps/search/?api=1&query=Pt.+Deendayal+Upadhyaya+Computer+%26+Informatics+Centre+GJUS%26T+Hisar+Haryana+125001",
+            ruleBookLink: "https://www.google.com/maps/place/Chaudhary+Ranbir+Singh+Auditorium,+GJU,+Hisar/@29.1695016,75.7327457,17z/data=!3m1!4b1!4m6!3m5!1s0x391232dd3341eb29:0xdd3c43d3ce7f3fb9!8m2!3d29.1695016!4d75.7353206!16s%2Fg%2F1hm5npxym?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D",
             registerLink: "https://whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h",
       },
     ];
@@ -228,7 +228,7 @@ const toggleFlipRow4 = (index) => {
             description:"✨Session Highlights include learning how to turn strategy into action, align teams, and solve real-world business problems at scale.",
             btn1:"Venue",
             btn2:"Join Us",
-            ruleBookLink: "https://www.google.com/maps/search/?api=1&query=Pt.+Deendayal+Upadhyaya+Computer+%26+Informatics+Centre+GJUS%26T+Hisar+Haryana+125001",
+            ruleBookLink: "https://www.google.com/maps/place/Chaudhary+Ranbir+Singh+Auditorium,+GJU,+Hisar/@29.1695016,75.7327457,17z/data=!3m1!4b1!4m6!3m5!1s0x391232dd3341eb29:0xdd3c43d3ce7f3fb9!8m2!3d29.1695016!4d75.7353206!16s%2Fg%2F1hm5npxym?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D",
             registerLink: "https://whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h",
       },
       {
