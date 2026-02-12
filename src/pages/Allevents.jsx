@@ -202,7 +202,7 @@ const toggleFlipRow4 = (index) => {
             registerLink: "https://forms.gle/5mWXzez3V9PK9dyD8",
       },
       {
-        title: "Session",
+        title: "WORKSHOP",
             date: "16th Feb 2026",
             image:ses1,
             description:"✨Session Highlights include exploring sustainable startup pathways, identifying emerging opportunities, and building future-ready businesses.",
@@ -214,7 +214,7 @@ const toggleFlipRow4 = (index) => {
     const events4 = [
       {
         
-        title: "Session",
+        title: "SESSION",
             date: "16th Feb 2026",
             image:ses2,
             description:"✨Session Highlights include learning how to turn strategy into action, align teams, and solve real-world business problems at scale.",
@@ -222,7 +222,7 @@ const toggleFlipRow4 = (index) => {
             registerLink: "",
       },
       {
-        title: "Session",
+        title: "SESSION",
             date: "16th Feb 2026",
             image:ses3,
             description:"✨Session Highlights include learning how ideas turn into real-world innovations with practical insights and hands-on implementation.",
@@ -230,7 +230,7 @@ const toggleFlipRow4 = (index) => {
             registerLink: "",
       },
       {
-        title: "Session",
+        title: "MY STORY",
             date: "16th Feb 2026",
             image:ses4,
             description:"✨Session Highlights includes learn the essentials of building, scaling, and managing a successful restaurant brand with consistent customer experiences.",
@@ -238,7 +238,7 @@ const toggleFlipRow4 = (index) => {
             registerLink: "https://forms.gle/BsdHd77L9Fbk1xEo9",
       },
       {
-        title: "Coming Soon",
+        title: "COMING SOON",
             date: "Date....",
             image:coming,
             description:"",
