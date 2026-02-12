@@ -182,6 +182,8 @@ const toggleFlipRow4 = (index) => {
             date: "17th Feb 2026",
             image:crown,
             description:"Crown for Code is a multi-round coding competition that challenges problem-solving, logic, and programming skills, culminating in a high-stakes final for top coders.",
+            btn1:"Rule book",
+            btn2:"Register Now",
             ruleBookLink: "https://drive.google.com/drive/folders/1Thxl48uOUO1QhYWidgPf8NaRC25snSxn?usp=drive_link",
             registerLink: "https://forms.gle/f3b9hKGivFmfpTgP9",
       },
@@ -190,6 +192,8 @@ const toggleFlipRow4 = (index) => {
             date: "16th Feb 2026",
             image:zone,
             description:"Konark’26 Startup Showcase cum Exhibition provides a platform for student innovators and startups to exhibit their ideas, connect with a wider audience, and foster innovation through networking.",
+            btn1:"Rule book",
+            btn2:"Register Now",
             ruleBookLink: "",
             registerLink: "https://forms.gle/7L5yWRfzdFUgomsw9",
       },
@@ -198,6 +202,8 @@ const toggleFlipRow4 = (index) => {
             date: "08th Feb 2026",
             image:survivors,
             description:"Survivors Arena – Fight Your Fate in BGMI is a competitive BGMI tournament testing players’ strategy, teamwork, and survival skills. Matches are held in private Erangel (Sunny) rooms for a fair, controlled battleground.",
+            btn1:"Rule book",
+            btn2:"Register Now",
             ruleBookLink: "https://drive.google.com/drive/folders/1qvKP0Gp7gvm_k2_Gcmv9myynOlAMo3tu?usp=sharing",
             registerLink: "https://forms.gle/5mWXzez3V9PK9dyD8",
       },
@@ -206,8 +212,10 @@ const toggleFlipRow4 = (index) => {
             date: "16th Feb 2026",
             image:ses1,
             description:"✨Session Highlights include exploring sustainable startup pathways, identifying emerging opportunities, and building future-ready businesses.",
-            ruleBookLink: "",
-            registerLink: "",
+            btn1:"Venue",
+            btn2:"Join Us",
+            ruleBookLink: "https://www.google.com/maps/search/?api=1&query=Pt.+Deendayal+Upadhyaya+Computer+%26+Informatics+Centre+GJUS%26T+Hisar+Haryana+125001",
+            registerLink: "https://whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h",
       },
     ];
 
@@ -218,23 +226,29 @@ const toggleFlipRow4 = (index) => {
             date: "16th Feb 2026",
             image:ses2,
             description:"✨Session Highlights include learning how to turn strategy into action, align teams, and solve real-world business problems at scale.",
-            ruleBookLink: "",
-            registerLink: "",
+            btn1:"Venue",
+            btn2:"Join Us",
+            ruleBookLink: "https://www.google.com/maps/search/?api=1&query=Pt.+Deendayal+Upadhyaya+Computer+%26+Informatics+Centre+GJUS%26T+Hisar+Haryana+125001",
+            registerLink: "https://whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h",
       },
       {
-        title: "SESSION",
+        title: "WORKSHOP",
             date: "16th Feb 2026",
             image:ses3,
             description:"✨Session Highlights include learning how ideas turn into real-world innovations with practical insights and hands-on implementation.",
-            ruleBookLink: "",
-            registerLink: "",
+            btn1:"Venue",
+            btn2:"Join Us",
+            ruleBookLink: "https://www.google.com/maps/search/?api=1&query=Pt.+Deendayal+Upadhyaya+Computer+%26+Informatics+Centre+GJUS%26T+Hisar+Haryana+125001",
+            registerLink: "https://whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h",
       },
       {
         title: "MY STORY",
             date: "16th Feb 2026",
             image:ses4,
             description:"✨Session Highlights includes learn the essentials of building, scaling, and managing a successful restaurant brand with consistent customer experiences.",
-            ruleBookLink: "",
+            btn1:"Join Us",
+            btn2:"Register Now",
+            ruleBookLink: "https://whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h",
             registerLink: "https://forms.gle/BsdHd77L9Fbk1xEo9",
       },
       {
@@ -242,6 +256,8 @@ const toggleFlipRow4 = (index) => {
             date: "Date....",
             image:coming,
             description:"",
+            btn1:"Venue",
+            btn2:"Join Us",
             ruleBookLink: "",
             registerLink: "",
       },
@@ -350,23 +366,8 @@ const toggleFlipRow4 = (index) => {
               <div className="ccard-back">
                 <h2>{event.title}</h2>
                  <p>{event.description}</p>
-                {/* <a href={event.ruleBookLink} className="ooutwhite" target="_blank" rel="noopener noreferrer">Rule book</a>
-                <a href={event.registerLink} className="iinwhite" target="_blank" rel="noopener noreferrer">Register Now</a> */}
-
-                                {event.comingSoon ? (
-                  <>
-                    <a onClick={handleEsummitClick} className="outwhite" role="button">Rule book</a>
-                    <a onClick={handleEsummitClick} className="inwhite" role="button">Register Now</a>
-                  </>
-                ) : (
-                  <>
-                    <a href={event.ruleBookLink} className="outwhite" target="_blank" rel="noopener noreferrer">Rule book</a>
-                    <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">Register Now</a>
-                  </>
-                )}
-
-
-
+                <a href={event.ruleBookLink} className="ooutwhite" target="_blank" rel="noopener noreferrer">Rule book</a>
+                <a href={event.registerLink} className="iinwhite" target="_blank" rel="noopener noreferrer">Register Now</a>
               </div>
             </div>
           </div>
@@ -392,17 +393,8 @@ const toggleFlipRow4 = (index) => {
               <div className="ccard-back">
                 <h2>{event.title}</h2>
                  <p>{event.description}</p>
-                                {event.comingSoon ? (
-                  <>
-                    <a onClick={handleEsummitClick} className="outwhite" role="button">Rule book</a>
-                    <a onClick={handleEsummitClick} className="inwhite" role="button">Register Now</a>
-                  </>
-                ) : (
-                  <>
-                    <a href={event.ruleBookLink} className="outwhite" target="_blank" rel="noopener noreferrer">Rule book</a>
-                    <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">Register Now</a>
-                  </>
-                )}
+                    <a href={event.ruleBookLink} className="outwhite" target="_blank" rel="noopener noreferrer">{event.btn1}</a>
+                    <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">{event.btn2}</a>
               </div>
             </div>
           </div>
@@ -431,13 +423,13 @@ const toggleFlipRow4 = (index) => {
                  <p>{event.description}</p>
                                 {event.comingSoon ? (
                   <>
-                    <a onClick={handleEsummitClick} className="outwhite" role="button">Rule book</a>
-                    <a onClick={handleEsummitClick} className="inwhite" role="button">Register Now</a>
+                    <a onClick={handleEsummitClick} className="outwhite" role="button">{event.btn1}</a>
+                    <a onClick={handleEsummitClick} className="inwhite" role="button">{event.btn2}</a>
                   </>
                 ) : (
                   <>
-                    <a href={event.ruleBookLink} className="outwhite" target="_blank" rel="noopener noreferrer">Rule book</a>
-                    <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">Register Now</a>
+                    <a href={event.ruleBookLink} className="outwhite" target="_blank" rel="noopener noreferrer">{event.btn1}</a>
+                    <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">{event.btn2}</a>
                   </>
                 )}
               </div>
