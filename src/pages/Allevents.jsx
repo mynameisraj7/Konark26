@@ -13,6 +13,10 @@ import zone from "../assets/zone.jpg";
 import survivors from "../assets/survivors.jpeg";
 import konarklogo from "../assets/konark.png";
 import coming from "../assets/comingsoonk.jpeg";
+import ses1 from "../assets/ses1.jpeg";
+import ses2 from "../assets/ses2.jpeg";
+import ses3 from "../assets/ses3.jpeg";
+import ses4 from "../assets/ses4.jpeg";
 import { useEffect,useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -64,9 +68,10 @@ function Allevents() {
 
     
     
-      const [flippedIndexesRow1, setFlippedIndexesRow1] = useState([]);
+const [flippedIndexesRow1, setFlippedIndexesRow1] = useState([]);
 const [flippedIndexesRow2, setFlippedIndexesRow2] = useState([]);
 const [flippedIndexesRow3, setFlippedIndexesRow3] = useState([]);
+const [flippedIndexesRow4, setFlippedIndexesRow4] = useState([]);
 
 const toggleFlipRow1 = (index) => {
   setFlippedIndexesRow1((prev) =>
@@ -86,6 +91,14 @@ const toggleFlipRow2 = (index) => {
 
 const toggleFlipRow3 = (index) => {
   setFlippedIndexesRow3((prev) =>
+    prev.includes(index)
+      ? prev.filter((i) => i !== index)
+      : [...prev, index]
+  );
+};
+
+const toggleFlipRow4 = (index) => {
+  setFlippedIndexesRow4((prev) =>
     prev.includes(index)
       ? prev.filter((i) => i !== index)
       : [...prev, index]
@@ -187,6 +200,42 @@ const toggleFlipRow3 = (index) => {
             description:"Survivors Arena – Fight Your Fate in BGMI is a competitive BGMI tournament testing players’ strategy, teamwork, and survival skills. Matches are held in private Erangel (Sunny) rooms for a fair, controlled battleground.",
             ruleBookLink: "https://drive.google.com/drive/folders/1qvKP0Gp7gvm_k2_Gcmv9myynOlAMo3tu?usp=sharing",
             registerLink: "https://forms.gle/5mWXzez3V9PK9dyD8",
+      },
+      {
+        title: "Session",
+            date: "16th Feb 2026",
+            image:ses1,
+            description:"✨Session Highlights include exploring sustainable startup pathways, identifying emerging opportunities, and building future-ready businesses.",
+            ruleBookLink: "",
+            registerLink: "",
+      },
+    ];
+
+    const events4 = [
+      {
+        
+        title: "Session",
+            date: "16th Feb 2026",
+            image:ses2,
+            description:"✨Session Highlights include learning how to turn strategy into action, align teams, and solve real-world business problems at scale.",
+            ruleBookLink: "",
+            registerLink: "",
+      },
+      {
+        title: "Session",
+            date: "16th Feb 2026",
+            image:ses3,
+            description:"✨Session Highlights include learning how ideas turn into real-world innovations with practical insights and hands-on implementation.",
+            ruleBookLink: "",
+            registerLink: "",
+      },
+      {
+        title: "Session",
+            date: "16th Feb 2026",
+            image:ses4,
+            description:"✨Session Highlights includes learn the essentials of building, scaling, and managing a successful restaurant brand with consistent customer experiences.",
+            ruleBookLink: "",
+            registerLink: "https://forms.gle/BsdHd77L9Fbk1xEo9",
       },
       {
         title: "Coming Soon",
@@ -330,6 +379,43 @@ const toggleFlipRow3 = (index) => {
             key={index}
             className={`ssmallcard ${flippedIndexesRow3.includes(index) ? "flipped" : ""}`}
             onClick={() => toggleFlipRow3(index)}
+          >
+            <div className="ccard-inner">
+              <div className="ccard-front">
+                <img src={event.image} loading="lazy" />
+                <h2>{event.title}</h2>
+                <div className="ssmallcardtext">
+                  <p>{event.date}</p>
+                  <a>Know More</a>
+                </div>
+              </div>
+              <div className="ccard-back">
+                <h2>{event.title}</h2>
+                 <p>{event.description}</p>
+                                {event.comingSoon ? (
+                  <>
+                    <a onClick={handleEsummitClick} className="outwhite" role="button">Rule book</a>
+                    <a onClick={handleEsummitClick} className="inwhite" role="button">Register Now</a>
+                  </>
+                ) : (
+                  <>
+                    <a href={event.ruleBookLink} className="outwhite" target="_blank" rel="noopener noreferrer">Rule book</a>
+                    <a href={event.registerLink} className="inwhite" target="_blank" rel="noopener noreferrer">Register Now</a>
+                  </>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+        </div>
+
+
+        <div className="ffourcardcontainer" data-aos="fade-right">
+        {events4.map((event, index) => (
+          <div
+            key={index}
+            className={`ssmallcard ${flippedIndexesRow4.includes(index) ? "flipped" : ""}`}
+            onClick={() => toggleFlipRow4(index)}
           >
             <div className="ccard-inner">
               <div className="ccard-front">
