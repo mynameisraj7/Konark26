@@ -223,6 +223,7 @@ const toggleFlipRow4 = (index) => {
       {
         
         title: "SESSION",
+        titleback: "SESSION",
             date: "16th Feb 2026",
             image:ses2,
             description:"✨Session Highlights include learning how to turn strategy into action, align teams, and solve real-world business problems at scale.",
@@ -233,6 +234,7 @@ const toggleFlipRow4 = (index) => {
       },
       {
         title: "WORKSHOP",
+        titleback: "WORKSHOP HIGHLIGHTS",
             date: "16th Feb 2026",
             image:ses3,
             description:"✨Session Highlights include learning how ideas turn into real-world innovations with practical insights and hands-on implementation.",
@@ -243,6 +245,7 @@ const toggleFlipRow4 = (index) => {
       },
       {
         title: "MY STORY",
+        titleback: "MY STORY",
             date: "16th Feb 2026",
             image:ses4,
             description:"✨Session Highlights includes learn the essentials of building, scaling, and managing a successful restaurant brand with consistent customer experiences.",
@@ -253,6 +256,7 @@ const toggleFlipRow4 = (index) => {
       },
       {
         title: "COMING SOON",
+        titleback: "COMING SOON",
             date: "Date....",
             image:coming,
             description:"",
@@ -419,7 +423,7 @@ const toggleFlipRow4 = (index) => {
                 </div>
               </div>
               <div className="ccard-back">
-                <h2>{event.title}</h2>
+                <h2>{event.titleback}</h2>
                  <p>{event.description}</p>
                                 {event.comingSoon ? (
                   <>
