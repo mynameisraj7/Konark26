@@ -12,11 +12,12 @@ import crown from "../assets/f.jpg";
 import zone from "../assets/zone.jpg";
 import survivors from "../assets/survivors.jpeg";
 import konarklogo from "../assets/konark.png";
-import coming from "../assets/comingsoonk.jpeg";
+// import coming from "../assets/comingsoonk.jpeg";
 import ses1 from "../assets/ses1.jpeg";
 import ses2 from "../assets/ses2.jpeg";
 import ses3 from "../assets/ses3.jpeg";
 import ses4 from "../assets/ses4.jpeg";
+import ses5 from "../assets/ses5.jpeg";
 import { useEffect,useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -252,14 +253,14 @@ const toggleFlipRow4 = (index) => {
             registerLink: "https://forms.gle/BsdHd77L9Fbk1xEo9",
       },
       {
-        title: "COMING SOON",
-            date: "Date....",
-            image:coming,
-            description:"",
-            btn1:"Venue",
-            btn2:"Join Us",
-            ruleBookLink: "",
-            registerLink: "",
+        title: "SESSION",
+            date: "17th Feb 2026",
+            image:ses5,
+            description:"✨Session Highlights include understanding patents, trademarks, and copyrights, safeguarding innovations, and leveraging IP for business growth.",
+            btn1:"Join Us",
+            btn2:"Register Now",
+            ruleBookLink: "https://whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h",
+            registerLink: "https://forms.gle/HMFrbzDCswbEykwn6",
       },
     ];
 
