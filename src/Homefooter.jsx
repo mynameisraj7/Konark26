@@ -29,7 +29,7 @@ function Homefooter() {
     rel="noopener noreferrer"
     className="address-link"
   >
-    Pt. Deendayal Upadhyaya Computer & Informatics Centre (PDUIIC),<br/>
+    Pandit Deendayal Upadhyaya Innovation & Incubation Centre (PDUIIC),<br/>
     GJUS&T, Hisar,<br/>
     Haryana - 125001
   </a>
