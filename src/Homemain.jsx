@@ -6,7 +6,7 @@ import konarklogo from "./assets/konark.png";
 import desklogo from "./assets/konark4.png";
 import { useState, useEffect } from "react";
 import { Link, useLocation } from 'react-router-dom';
-import Countdown from "./Countdown";
+// import Countdown from "./Countdown";
 
 
 function Homemain() {
@@ -53,7 +53,7 @@ function Homemain() {
 
   return (
     <>
-    <Countdown />
+    {/* <Countdown /> */}
       <section className="heroback">
         <div className="header">
           <div className="glasscontainer">
